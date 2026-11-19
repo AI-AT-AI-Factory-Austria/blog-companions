@@ -1,0 +1,16 @@
+{
+ "elements": [
+  {
+   "category": "Paragraph",
+   "text": "ways. Review Figure 2.168 below, which is a line graph of the\npercentage of Canadian VS. foreign television programmes\nwatched in New Brunswick from 2000 to 2004. Because of\nthe similar colours of the lines, it is difficult for the reader to\nunderstand which line graph corresponds to which colour\nfrom the legend."
+  },
+  {
+   "category": "Footnote",
+   "text": "8. Statistics Canada. Table 22-10-0097-01 Television viewing time of all\ntelevision stations, by province, content and type of programme. Data\nis reproduced and distributed on an \"as is\" basis with the permission\nof Statistics Canada. Retrieved February 2nd, 2022. DOI: https://doi.org/\n10.25318/2210009701-eng. Statistics Canada Open Licence:\nhttps://www.statcan.gc.ca/en/reference/licence"
+  },
+  {
+   "category": "Footer",
+   "text": "54 | Misleading Data Visualizations"
+  }
+ ]
+}

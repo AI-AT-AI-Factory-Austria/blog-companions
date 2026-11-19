@@ -1,0 +1,52 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "MOHAVE COMMUNITY COLLEGE"
+  },
+  {
+   "category": "Header",
+   "text": "BIO181"
+  },
+  {
+   "category": "Paragraph",
+   "text": "5. Sample problem: If the ocular has a 10x lens and the objective has a 45x lens the total\nmagnification is 10 x 45 = 450x"
+  },
+  {
+   "category": "Heading1",
+   "text": "Changing objectives:"
+  },
+  {
+   "category": "Paragraph",
+   "text": "1. When changing objectives from scanning power to lower power to high power the\nfollowing changes will occur:"
+  },
+  {
+   "category": "List",
+   "text": "a. The size of the field of view decreases\nb. The field of view becomes darker\nc. The size of the image increases\nd. The resolution (ability to see detail) increases\ne. The working distance between the slide and the objective lens decreases\nf. The depth of focus (thickness of the specimen that is visible) is reduced"
+  },
+  {
+   "category": "Paragraph",
+   "text": "2. When changing from scanning to low power the field of view gets smaller. In fact, every\ntime you increase the power of the objective, the field gets smaller."
+  },
+  {
+   "category": "Heading1",
+   "text": "Steps for Using the Microscope:"
+  },
+  {
+   "category": "Paragraph",
+   "text": "1. Place the slide on the stage lining it up with the rectangle and using the stage clip to hold\nit in place."
+  },
+  {
+   "category": "Figure",
+   "text": "Plan"
+  },
+  {
+   "category": "List",
+   "text": "2. Click the nosepiece to the lowest (shortest) setting, the scanning objective lens or 4x.\n3. Look into the eyepiece.\n4. Use the coarse adjustment knob to bring the specimen into view. The specimen must be\nin focus before moving to the next steps.\n5. Rotate the nosepiece to the low-power objective or 10x.\n6. Refocus using the coarse adjustment knob.\n7. Move the slide to get a centered view.\n8. Now use the fine adjustment knob to get the specimen in perfect focus.\n9. Your slide MUST be focused on low power before attempting this next step."
+  },
+  {
+   "category": "Footer",
+   "text": "20"
+  }
+ ]
+}

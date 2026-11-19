@@ -1,0 +1,57 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "MOHAVE COMMUNITY COLLEGE"
+  },
+  {
+   "category": "Header",
+   "text": "BIO181"
+  },
+  {
+   "category": "Heading1",
+   "text": "Cellular Replication"
+  },
+  {
+   "category": "Figure"
+  },
+  {
+   "category": "Heading1",
+   "text": "Growth and the Creation of Life"
+  },
+  {
+   "category": "Paragraph",
+   "text": "One of the characteristics of living things is the ability\nto replicate and passon genetic information to the next\ngeneration. Cell division in individual bacteria and\narchaea usually occurs by binary fission. Mitochondria\nand chloroplasts also replicate by binary fission, which\nis evidence of the evolutionary relationship between\nthese organelles and prokaryotes.\nCell division in eukaryotes is more complex. It requires\nthe cell to manage acomplicated process of duplicating\nthe nucleus, other organelles, and multiple linear\nchromosomes. It is controlled in the cell cycle, which is\ndivided into three parts: interphase, mitosis, and\ncytokinesis. We spilt those further for ease of study.\nLet's start with interphase, which is broken into three\nstages. In the first growth phase (G1), the cell grows and\nprepares to duplicate its DNA. In the synthesis phase\n(S), the chromosomes are replicated. In the second\ngrowth phase (G2), the cell prepares to divide."
+  },
+  {
+   "category": "Figure",
+   "text": "Growth\nM\nand\nand G2 G1 normal\npreparation metabolic\nfor maosis S\nrolea\nDNA\nreplication"
+  },
+  {
+   "category": "Heading1",
+   "text": "Cellular Cycle\nand Replication"
+  },
+  {
+   "category": "Figure"
+  },
+  {
+   "category": "Paragraph",
+   "text": "A step by step\nguide to growing a\nhuman!"
+  },
+  {
+   "category": "Figure"
+  },
+  {
+   "category": "Heading1",
+   "text": "Mitosis and\nMeiosis"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Similiar processes\nwith VERY different\nresults!"
+  },
+  {
+   "category": "Footer",
+   "text": "66"
+  }
+ ]
+}

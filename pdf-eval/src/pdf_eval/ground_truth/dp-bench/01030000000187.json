@@ -1,0 +1,56 @@
+{
+ "elements": [
+  {
+   "category": "Table",
+   "html": "<tr><td rowspan=\"3\">Properties</td><td colspan=\"6\">Training Datasets</td></tr><tr><td colspan=\"3\">Instruction</td><td colspan=\"3\">Alignment</td></tr><tr><td>Alpaca-GPT4</td><td>OpenOrca</td><td>Synth. Math-Instruct</td><td>Orca DPO Pairs</td><td>Ultrafeedback Cleaned</td><td>Synth. Math-Alignment</td></tr><tr><td>Total # Samples</td><td>52K</td><td>2.91M</td><td>126K</td><td>12.9K</td><td>60.8K</td><td>126K</td></tr><tr><td>Maximum # Samples Used</td><td>52K</td><td>100K</td><td>52K</td><td>12.9K</td><td>60.8K</td><td>20.1K</td></tr><tr><td>Open Source</td><td>O</td><td>O</td><td>X</td><td>O</td><td>O</td><td>X</td></tr>"
+  },
+  {
+   "category": "Caption",
+   "text": "Table 1: Training datasets used for the instruction and alignment tuning stages, respectively. For the instruction\ntuning process, we utilized the Alpaca-GPT4 (Peng et al., 2023), OpenOrca (Mukherjee et al., 2023), and Synth.\nMath-Instruct datasets, while for the alignment tuning, we employed the Orca DPO Pairs (Intel, 2023), Ultrafeedback\nCleaned (Cui et al., 2023; Ivison et al., 2023), and Synth. Math-Alignment datasets. The 'Total # Samples' indicates\nthe total number of samples in the entire dataset. The 'Maximum # Samples Used' indicates the actual maximum\nnumber of samples that were used in training, which could be lower than the total number of samples in a given\ndataset. 'Open Source' indicates whether the dataset is open-sourced."
+  },
+  {
+   "category": "Paragraph",
+   "text": "pretraining to quickly recover performance. We\nattribute the success of DUS to reducing such dis-\ncrepancies in both the depthwise scaling and the\ncontinued pretraining steps. We also hypothesize\nthat other methods of depthwise scaling could also\nwork for DUS, as long as the discrepancy in the\nscaled model is sufficiently contained before the\ncontinued pretraining step."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Comparison to other up-scaling methods. Un-\nlike Komatsuzaki et al. (2022), depthwise scaled\nmodels do not require additional modules like gat-\ning networks or dynamic expert selection. Conse-\nquently, scaled models in DUS do not necessitate\na distinct training framework for optimal training\nefficiency, nor do they require specialized CUDA\nkernels for fast inference. A DUS model can seam-\nlessly integrate into existing training and inference\nframeworks while maintaining high efficiency."
+  },
+  {
+   "category": "Heading1",
+   "text": "3 Training Details"
+  },
+  {
+   "category": "Paragraph",
+   "text": "After DUS, including continued pretraining, we\nperform fine-tuning of SOLAR 10.7B in two stages:\n1) instruction tuning and 2) alignment tuning."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Instruction tuning. In the instruction tuning\nstage, the model is trained to follow instructions in\na QA format (Zhang et al., 2023b). We mostly use\nopen-source datasets but also synthesize a math QA\ndataset to enhance the model's mathematical capa-\nbilities. A rundown of how we crafted the dataset is\nas follows. First, seed math data are collected from\nthe Math (Hendrycks et al., 2021) dataset only, to\navoid contamination with commonly used bench-\nmark datasets such as GSM8K (Cobbe et al., 2021).\nThen, using a process similar to MetaMath (Yu\net al., 2023), we rephrase the questions and an-\nswers of the seed math data. We use the resulting\nrephrased question-answer pairs as a QA dataset"
+  },
+  {
+   "category": "Paragraph",
+   "text": "and call it 'Synth. Math-Instruct'."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Alignment tuning. In the alignment tuning stage,\nthe instruction-tuned model is further fine-tuned to\nbe more aligned with human or strong AI (e.g.,\nGPT4 (OpenAI, 2023)) preferences using direct\npreference optimization (DPO) (Rafailov et al.,\n2023). Similar to the instruction tuning stage, we\nuse mostly open-source datasets but also synthe-\nsize a math-focused alignment dataset utilizing the\n'Synth. Math-Instruct' dataset mentioned in the\ninstruction tuning stage."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The alignment data synthesis process is as\nfollows. We take advantage of the fact that\nthe rephrased question-answer pairs in Synth.\nMath-Instruct data are beneficial in enhancing the\nmodel's mathematical capabilities (see Sec. 4.3.1).\nThus, we speculate that the rephrased answer to the\nrephrased question is a better answer than the orig-\ninal answer, possibly due to the interim rephrasing\nstep. Consequently, we set the rephrased question\nas the prompt and use the rephrased answer as the\nchosen response and the original answer as the re-\njected response and create the {prompt, chosen,\nrejected} DPO tuple. We aggregate the tuples from\nthe rephrased question-answer pairs and call the\nresulting dataset 'Synth. Math-Alignment'."
+  },
+  {
+   "category": "Heading1",
+   "text": "4 Results"
+  },
+  {
+   "category": "Heading1",
+   "text": "4.1 Experimental Details"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Training datasets. We present details regarding\nour training datasets for the instruction and align-\nment tuning stages in Tab. 1. We do not always\nuse the entire dataset and instead subsample a set\namount. Note that most of our training data is\nopen-source, and the undisclosed datasets can be\nsubstituted for open-source alternatives such as the\nMetaMathQA (Yu et al., 2023) dataset."
+  }
+ ]
+}

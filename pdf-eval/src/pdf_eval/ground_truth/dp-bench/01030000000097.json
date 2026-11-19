@@ -1,0 +1,36 @@
+{
+ "elements": [
+  {
+   "category": "Figure",
+   "text": "Nature\nPlayer 2 Player 2\nStrong\nweak\n(1 - p )\np\n1 1\nConcede\nConcede\nInvade\nInvade\n2 0, 1 2 0, 1\nConcede\nFight\n1, 0 -0.2, 0.8"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Now, how do we solve for the game's analytical equilibrium?12"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Here, Player 2 applies backward induction to find what's known as a Perfect Bayesian Equilibrium\n(PBE). As we already know, if Player 2 is the weak type and Player 1 has chosen to invade, then Player\n2 should concede. If he is the strong type, then Player 2 should fight. We also know that Player 1\nrecognizes that she gets a payoff of $0 if she concedes in the first round, regardless of Player 2's type.\nIf she instead chooses to invade in the first round, then Player 1's expected payoff from invading is\np - 0.2(1 - p) = 1.2p - 0.2. This is merely the weighted average of Player 1's expected payoff\nwhen Player 2 is weak and her expected payoff when Player 2is strong. Thus, invade is a better strategy\nthan concede for Player 1 when 1.2p - 0.2 > 0 ⇒ p > 1/6. In other words, if the probability that\nPlayer 1 assigns to Player 2 being weak is greater than one-sixth, Player 1 should choose to invade in the\nfirst round. Otherwise, Player 1 should concede and be done with it."
+  },
+  {
+   "category": "Paragraph",
+   "text": "What's the outcome when you and your classmates play this more complicated version of the\nEscalation Game?"
+  },
+  {
+   "category": "Heading1",
+   "text": "BURNING BRIDGES GAME"
+  },
+  {
+   "category": "Paragraph",
+   "text": "This game shares starkly similar features with the Escalation Game, but there is no uncertainty\n(thus, the analytical equilibrium is an SPE rather than a PBE). The SPE has much to say about the\nrelationship between two tenacious competitors. Spaniel (2011) portrays the game as follows:"
+  },
+  {
+   "category": "Footnote",
+   "text": "12. This equilibrium is known as a Perfect Bayesian Equilibrium (PBE) rather than an SPE because of the uncertainty that at\nleast one of the players is forced to contend with. Similar to Nash, Thomas Bayes is considered a towering figure. He was\nan 18th-century English statistician, philosopher, and Presbyterian minister who is known for formulating a specific case\nof the theorem that bears his name: Bayes Theorem. Bayes never published his theory himself-his notes were edited and\npublished posthumously."
+  },
+  {
+   "category": "Footer",
+   "text": "132 ARTHUR J. CAPLAN"
+  }
+ ]
+}

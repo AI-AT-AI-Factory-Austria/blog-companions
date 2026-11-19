@@ -1,0 +1,24 @@
+{
+ "elements": [
+  {
+   "category": "Chart",
+   "text": "66%\n24%\n18%\n12%\n8%\n6%\nNo textbook Affordable Zero cost Free Low cost OER\nrequired"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 7.1: Texas OER landscape survey results show terms used in course schedules"
+  },
+  {
+   "category": "Heading1",
+   "text": "IMPLEMENTATION"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Locally, we implemented a quick and free solution that reflects the constraints of system capabilities,\nno financial support, and a local directive to vet every course to be tagged. Based on what was\nfeasible in the short term and conversations with key stakeholders (i.e., registrar, early OER adopters,\ncurriculum coordinators, student representatives, and the campus store), we incorporated an\n\"educational resources cost\" option into an existing \"course attribute\" drop-down menu under the\nsystem's advanced search options."
+  },
+  {
+   "category": "Footer",
+   "text": "18 BOYOUNG CHAE, KEVIN CORCORAN, MICHAEL DALY, ANN FIDDLER, JEFF GALLANT, JAMES GLAPA-GROSSKLAG, AMY HOFER, AND"
+  }
+ ]
+}

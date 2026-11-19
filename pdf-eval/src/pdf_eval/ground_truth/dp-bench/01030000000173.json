@@ -1,0 +1,30 @@
+{
+ "elements": [
+  {
+   "category": "Heading1",
+   "text": "Humanity's Home Base."
+  },
+  {
+   "category": "Figure"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 1. This image shows the Western hemisphere as viewed\nfrom space 35,400 kilometers (about 22,000 miles) above Earth.\nData about the land surface from one satellite was combined with\nanother satellite's data about the clouds to create the image.\n(credit: modification of work by R. Stockli, A. Nelson, F. Hasler,\nNASA/ GSFC/ NOAA/ USGS)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Our nearest astronomical neighbor is Earth's satellite, commonly\ncalled the Moon. Figure 2 shows Earth and the Moon drawn to scale\non the same diagram. Notice how small we have to make these\nbodies to fit them on the page with the right scale. The Moon's\ndistance from Earth is about 30 times Earth's diameter, or\napproximately 384,000 kilometers, and it takes about a month for\nthe Moon to revolve around Earth. The Moon's diameter is 3476\nkilometers, about one fourth the size of Earth."
+  },
+  {
+   "category": "Heading1",
+   "text": "Earth and Moon, Drawn to Scale."
+  },
+  {
+   "category": "Figure"
+  },
+  {
+   "category": "Footer",
+   "text": "10 | Chapter 1 Section 1.6: A Tour of the Universe"
+  }
+ ]
+}

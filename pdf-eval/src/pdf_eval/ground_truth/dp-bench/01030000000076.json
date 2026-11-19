@@ -1,0 +1,48 @@
+{
+ "elements": [
+  {
+   "category": "Caption",
+   "text": "Figure 1.6. Alien temporary work permits, Thailand"
+  },
+  {
+   "category": "Chart",
+   "text": "140000\n120000\n100000\n80000\n60000\n40000\n20000\n0\n07/2020\n03/2019\n11/2020\n03/2020\n09/2020\n11/2019\n05/2020\n09/2019\n05/2019\n07/2019\n01/2019\n01/2020\n01/2022\n11/2021\n09/2021\n03/2021\n01/2021\n07/2021\n05/2021"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Source: Department of Employment, Thailand (2022)"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 1.7. Non-citizen population in Malaysia (in thousands)"
+  },
+  {
+   "category": "Chart",
+   "text": "3,500 3,230 3,288 3,323\n3,140\n2,907\n3,000\n2,693\n2,500\n2,000\n1,500\n1,000\n500\n0\n2016 2017 2018 2019 2020 2021"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Source: Department of Statistics, Malaysia (2022). Figure for 2021 is an estimate."
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 1.8. Singapore foreign workforce stock (in thousands)"
+  },
+  {
+   "category": "Chart",
+   "text": "1,450 1,427\n1,393 1,386\n1,400 1,368\n1,350\n1,300\n1,250 1,232\n1,200\n1,200\n1,150\n1,100\n1,050\n2016 (Dec) 2017 (Dec) 2018 (Dec) 2019 (Dec) 2020 (Dec) 2021 (Dec)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Source: Compilation by Manpower Research & Statistics Department (Ministry of Manpower,\nSingapore, 2022)."
+  },
+  {
+   "category": "Footer",
+   "text": "ASEAN Migration Outlook"
+  },
+  {
+   "category": "Footer",
+   "text": "19"
+  }
+ ]
+}

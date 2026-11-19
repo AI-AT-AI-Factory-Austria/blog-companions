@@ -1,0 +1,48 @@
+{
+ "elements": [
+  {
+   "category": "Heading1",
+   "text": "4\nBasis Fields"
+  },
+  {
+   "category": "Paragraph",
+   "text": "A vector field may be written as a linear combination of basis\nvector fields. If n is the dimension, then any set of n linearly\nindependent vector fields may be used as a basis. The coordinate\nbasis X is an example of a basis.1 We will see later that not every\nbasis is a coordinate basis: in order to be a coordinate basis,\nthere must be a coordinate system such that each basis element is\nthe directional derivative operator in a corresponding coordinate\ndirection."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Let e be a tuple of basis vector fields, such as the coordinate\nbasis X. The general vector field v applied to an arbitrary manifold\nfunction f can be expressed as a linear combination"
+  },
+  {
+   "category": "Equation",
+   "text": "\\mathrm{v}(\\mathrm{f})(\\mathrm{m})=\\mathrm{e}(\\mathrm{f})(\\mathrm{m})\\mathrm{b}(\\mathrm{m})=\\sum_i\\mathrm{e}_i(\\mathrm{f})(\\mathrm{m})\\mathrm{b}^i(\\mathrm{~m})\\text{,}"
+  },
+  {
+   "category": "Caption",
+   "text": "(4.1)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "where b is a tuple-valued coefficient function on the manifold.\nWhen expressed in a coordinate basis, the coefficients that specify\nthe direction of the vector are naturally expressed as functions\nbi of the coordinates of the manifold point. Here, the coefficient\nfunction b is more naturally expressed as a tuple-valued function\non the manifold. If b is the coefficient function expressed as a\nfunction of coordinates, then b = b ○ X is the coefficient function\nas a function on the manifold."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The coordinate-basis forms have a simple definition in terms of\nthe coordinate-basis vectors and the coordinates (equation 3.40).\nWith this choice, the dual property, equation (3.41), holds without\nfurther fuss. More generally, we can define a basis of one-forms e\nthat is dual to e in that the property"
+  },
+  {
+   "category": "Equation",
+   "text": "\\tilde{\\mathbf{e}}^i\\left(\\mathbf{e}_j\\right)(\\mathrm{m})=\\delta_j^i"
+  },
+  {
+   "category": "Caption",
+   "text": "(4.2)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "is satisfied, analogous to property (3.41). Figure 4.1 illustrates\nthe duality of basis fields."
+  },
+  {
+   "category": "Footnote",
+   "text": "1We cannot say if the basis vectors are orthogonal or normalized until we\nintroduce a metric."
+  }
+ ]
+}

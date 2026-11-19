@@ -1,0 +1,36 @@
+{
+ "elements": [
+  {
+   "category": "Heading1",
+   "text": "Print VS. Digital"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Why do some researchers abhor digital and favor print, or vice-versa? The classic print\nVS. digital debate was necessary for us to understand readers' preferences with each"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Q11 What factors influence your choice of print? (select all that apply)"
+  },
+  {
+   "category": "Chart",
+   "text": "Answered: 80 Skipped: 24\nConvenience\nReading\nexperience\nWorkflow\n(managing...\nHabit/personal\npreference\nAccess options\nvia my library\nOther (please\nspecify)\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%"
+  },
+  {
+   "category": "Heading1",
+   "text": "format."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Q12 What factors influence your choice of digital? (select all that apply)"
+  },
+  {
+   "category": "Chart",
+   "text": "Answered: 80 Skipped: 24\nConvenience\nReading\nexperience\nWorkflow\n(managing...\nHabit/personal\npreference\nAccess options\nvia my library\nOther (please\nspecify)\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%"
+  },
+  {
+   "category": "Footer",
+   "text": "Online Survey | 39"
+  }
+ ]
+}

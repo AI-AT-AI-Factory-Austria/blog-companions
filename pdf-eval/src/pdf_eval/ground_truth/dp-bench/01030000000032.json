@@ -1,0 +1,40 @@
+{
+ "elements": [
+  {
+   "category": "Heading1",
+   "text": "Prologue"
+  },
+  {
+   "category": "Heading1",
+   "text": "Programming and Understanding"
+  },
+  {
+   "category": "Paragraph",
+   "text": "One way to become aware of the precision required to unam-\nbiguously communicate a mathematical idea is to program it for\na computer. Rather than using canned programs purely as an\naid to visualization or numerical computation, we use computer\nprogramming in a functional style to encourage clear thinking.\nProgramming forces us to be precise and unambiguous, without\nforcing us to be excessively rigorous. The computer does not toler-\nate vague descriptions or incomplete constructions. Thus the act\nof programming makes us keenly aware of our errors of reasoning\nor unsupported conclusions.1"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Although this book is about differential geometry, we can show\nhow thinking about programming can help in understanding in a\nmore elementary context. The traditional use of Leibniz's notation\nand Newton's notation is convenient in simple situations, but in\nmore complicated situations it can be a serious handicap to clear\nreasoning."
+  },
+  {
+   "category": "Paragraph",
+   "text": "A mechanical system is described by a Lagrangian function of\nthe system state (time, coordinates, and velocities). A motion of\nthe system is described by a path that gives the coordinates for\neach moment of time. A path is allowed if and only if it satisfies\nthe Lagrange equations. Traditionally, the Lagrange equations are\nwritten"
+  },
+  {
+   "category": "Equation",
+   "text": "\\frac{d}{dt}\\frac{\\partialL}{\\partial\\dot{q}}-\\frac{\\partialL}{\\partialq}=0."
+  },
+  {
+   "category": "Paragraph",
+   "text": "What could this expression possibly mean?"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Let's try to write a program that implements Lagrange equa-\ntions. What are Lagrange equations for? Our program must take\na proposed path and give a result that allows us to decide if the\npath is allowed. This is already a problem; the equation shown\nabove does not have a slot for a path to be tested."
+  },
+  {
+   "category": "Footnote",
+   "text": "1The idea of using computer programming to develop skills of clear thinking\nwas originally advocated by Seymour Papert. An extensive discussion of this\nidea, applied to the education of young children, can be found in Papert [13]."
+  }
+ ]
+}

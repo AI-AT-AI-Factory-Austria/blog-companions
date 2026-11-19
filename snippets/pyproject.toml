@@ -1,0 +1,17 @@
+[project]
+name = "pdf-parsing-snippets"
+version = "0.1.0"
+description = "The code examples of the article 'PDF parsing, from glyphs to knowledge', runnable on the demo page"
+requires-python = ">=3.10"
+dependencies = [
+    "docling>=2.60",
+    "openai>=1.50",
+    "pdfminer.six",
+    "pdfplumber",
+    "pillow",
+    "pydantic>=2",
+    "pymupdf4llm",
+    "pypdf",
+    "pypdfium2",
+    "rapidfuzz>=3",
+]

@@ -1,0 +1,64 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "Semantic Search Pack: Value"
+  },
+  {
+   "category": "Heading1",
+   "text": "SS Pack allows businesses to access further data more rapidly"
+  },
+  {
+   "category": "Paragraph",
+   "text": "The SS Pack can reduce the information acquisition time by returning all the information that matches the user's search intent."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The performance optimized for individual search systems is maintained by automatic updates of real-time search log records, augmented by\nUpstage's technological know-how."
+  },
+  {
+   "category": "Heading1",
+   "text": "1.8X ↑1"
+  },
+  {
+   "category": "Heading1",
+   "text": "Higher Return of Information"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Unlike existing search systems that only return\ninformation limited to the entered search keywords, SS\nPack returns all relevant data that meet the user's\nsearch intent"
+  },
+  {
+   "category": "Heading1",
+   "text": "Optimal Attempt"
+  },
+  {
+   "category": "Heading1",
+   "text": "Reduced Information Acquisition Time"
+  },
+  {
+   "category": "Paragraph",
+   "text": "By returning all semantic-based information of the\nsearch keywords, the time required for information\nacquisition is reduced drastically compared to that\nof traditional keyword-matching search systems"
+  },
+  {
+   "category": "Heading1",
+   "text": "2\nSOTA"
+  },
+  {
+   "category": "Heading1",
+   "text": "Cutting-Edge Technology"
+  },
+  {
+   "category": "Paragraph",
+   "text": "The analysis of user logs saved in real-time allows us\nto further optimize the individual search services\nover time"
+  },
+  {
+   "category": "Footnote",
+   "text": "1 Evaluated against 100 internal test queries. Comparison of the amount of information returned with at least one keyword included in the search term and the\namount of returned information against that of SS Pack\n2 State-of-the-art, current highest level of results and performance"
+  },
+  {
+   "category": "Footer",
+   "text": "22"
+  }
+ ]
+}

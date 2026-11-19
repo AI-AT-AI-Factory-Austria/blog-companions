@@ -1,0 +1,36 @@
+{
+ "elements": [
+  {
+   "category": "Heading1",
+   "text": "The Data Journey"
+  },
+  {
+   "category": "Paragraph",
+   "text": "To get started, let's consider the data visualization1 in Figure 1.1\nbelow."
+  },
+  {
+   "category": "Chart",
+   "text": "Fruit Production in British Columbia\n140,000\n120,000\n(Total)\n100,000\nProduced\n80,000\n60,000\nFruit\n40,000\n20,000\n0\n2016 2017 2018 2019 2020\nYear\n■ Apples ■ Blueberries ■ Cranberries ■ Grapes ■ Strawberries"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 1.1.\nProduction\nof apples,\nblueberries,\ncranberries,\ngraphs,\nand\nstrawberrie\ns in British\nColumbia,\n2016-2020."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The underlying raw data went through many stages before it\nwas presented to you in this data visualization. The information\nhad to be:"
+  },
+  {
+   "category": "List",
+   "text": "· Collected via surveys\n· Inputted into a database\n· Stored on secure servers\n· Cleaned for accuracy and consistency\n· Analyzed to understand the trends\n· Presented as a bar graph"
+  },
+  {
+   "category": "Footnote",
+   "text": "1. Statistics Canada. Table 32-10-0364-01 Area, production and farm gate\nvalue of marketed fruits. Data is reproduced and distributed on an \"as\nis\" basis with the permission of Statistics Canada. Retrieved January\n9th, 2022. DOI: https://doi.org/10.25318/3210036401-eng. Statistics\nCanada Open Licence: https://www.statcan.gc.ca/en/reference/licence"
+  },
+  {
+   "category": "Footer",
+   "text": "4 | The Data Journey"
+  }
+ ]
+}

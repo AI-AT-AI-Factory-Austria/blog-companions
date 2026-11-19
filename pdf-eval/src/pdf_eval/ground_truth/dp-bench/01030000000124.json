@@ -1,0 +1,36 @@
+{
+ "elements": [
+  {
+   "category": "Chart",
+   "text": "Television Viewing in 2004\n3%\n5%\n22%\n29%\n3%\n3%\n1%\n7%\n11% 14%\n1%\n● News and affairs ●\n● ●\n● ● Sports\n● and ● Music \n● ●\n● (VCR) ● Other"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 2.9.\nA pie chart\ndisplaying\n12\ncategories\nof television\nviewing in\nOntario in\n2004\nprovides\ntoo much\nvisual\ninformation\n, making it\nhard to\nread."
+  },
+  {
+   "category": "Heading1",
+   "text": "False Causation"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Correlation does not imply causation."
+  },
+  {
+   "category": "Paragraph",
+   "text": "If you've ever taken a statistics or data analysis course, you\nhave almost certainly come across this common phrase. It\nmeans that, just because two trends seem to fluctuate\nalongside each other, it doesn't prove that one causes the other\nor that they are related in a meaningful way."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Review Figure 2.1023 below, which shows a line graph of the"
+  },
+  {
+   "category": "Footnote",
+   "text": "2. Statistics Canada. Table 37-10-0079-01 Registered apprenticeship\ntraining, registrations by major trade groups and sex. Data is\nreproduced and distributed on an \"as is\" basis with the permission of\nStatistics Canada. Retrieved February 2nd, 2022. DOI: https://doi.org/\n10.25318/3710007901-eng. Statistics Canada Open Licence:\nhttps://www.statcan.gc.ca/en/reference/licence\n3. Statistics Canada. Table 32-10-0364-01 Area, production and farm gate"
+  },
+  {
+   "category": "Footer",
+   "text": "46 | Misleading Data Visualizations"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "elements": [
+  {
+   "category": "Chart",
+   "text": "20\n15\n10\n5\n0\n-5\n-10\n-15\n2004\n2005\n2008\n2002\n2006\n2003\n2007\n2010\n2009\n2000\n2001"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 17.2. Year-to-year changes in housing prices."
+  },
+  {
+   "category": "Chart",
+   "text": "30.0%\n25.0%\n20.0%\nChange 15.0%\n10.0%\n5.0%\n%\nAnnual\n0.0%\n-5.0%\n-10.0%\n04\n94\n06\n96\n98\n93\n02\n09\n05\n08\n97\n00\n01\n-15.0% 92\nSep\nMay\nMay\nMay\nJan\nJan\nSep\nMay\nJan\nMay\nSep\nJan\nSep\n-20.0% Jan"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Inflationary, nominal, and real interest rates. To understand price volatility of durables, it is necessary\nto describe inflationary, nominal, and real interest rates. Recall from your earlier training that the\ninflation rate i is equal to the rate of change in average prices, changes often linked to monetary or\nfiscal policies of governments. The nominal interest rate r depends on the rate of inflation and a real\ncomponent that is dependent on factors other than the rate of inflation such as changing market\nconditions or changes in productivity. To describe the effects of inflation on the nominal interest, let\none plus the nominal interest rate r equal one plus the real rate r* times one plus the inflation rate i so\nthat:"
+  },
+  {
+   "category": "Footer",
+   "text": "Ch. 17. Land Investments | 385"
+  }
+ ]
+}

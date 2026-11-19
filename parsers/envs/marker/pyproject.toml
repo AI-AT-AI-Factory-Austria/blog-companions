@@ -1,0 +1,39 @@
+# Marker pins pillow<11, which conflicts with MinerU, so it lives in its own
+# environment. It resolves to the same torch build as the main project, and uv
+# hardlinks it from the cache, so torch is stored on disk only once.
+[project]
+name = "pdf-parsers-marker"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["marker-pdf", "torch", "torchvision"]
+
+[dependency-groups]
+# Listed directly so they come from the PyTorch index below (uv applies sources
+# only to direct dependencies). Change gfx1151 to your GPU architecture.
+rocm = [
+    "rocm[libraries,device-gfx1151]==7.14.*",
+    "rocm-sdk-core",
+    "rocm-sdk-libraries",
+    "rocm-sdk-device-gfx1151",
+    "triton-rocm",
+]
+
+# Same torch setup as ../../pyproject.toml, see the comment there.
+[tool.uv]
+environments = ["sys_platform == 'linux'"]
+default-groups = ["rocm"]
+override-dependencies = ["rocm[libraries,device-gfx1151]==7.14.*"]
+
+[[tool.uv.index]]
+name = "pytorch-rocm"
+url = "https://download.pytorch.org/whl/rocm7.14"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-rocm" }]
+torchvision = [{ index = "pytorch-rocm" }]
+triton-rocm = [{ index = "pytorch-rocm" }]
+rocm = [{ index = "pytorch-rocm" }]
+rocm-sdk-core = [{ index = "pytorch-rocm" }]
+rocm-sdk-libraries = [{ index = "pytorch-rocm" }]
+rocm-sdk-device-gfx1151 = [{ index = "pytorch-rocm" }]

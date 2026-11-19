@@ -1,0 +1,9 @@
+# Copy to config.toml (gitignored) and fill in. Used by marker-llm.
+[llm]
+# Any OpenAI-compatible endpoint: vLLM, llama.cpp server, Ollama (/v1), a cloud API.
+base_url = "https://llm.example.org/v1"
+# Must accept images: marker sends crops of the page.
+model = "some-vision-model"
+api_key = ""
+# Seconds per request; local vision models can be slow.
+timeout = 300

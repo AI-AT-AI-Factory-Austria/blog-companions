@@ -1,0 +1,52 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "Recommendation Pack: Track Record"
+  },
+  {
+   "category": "Heading1",
+   "text": "Recommendation pack shows outstanding performance of 1.7~2.6 times that of\ncompeting models even when using commercial service data"
+  },
+  {
+   "category": "Heading1",
+   "text": "Comparison with Beauty Commerce\nRecommendation Models"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Recommendation model Hit Ratio comparison"
+  },
+  {
+   "category": "Chart",
+   "text": "Upstage\n0.4048\nGraph-RecSys\nUpstage\n0.3278\nAttn-RecSys\naws\n0.23496\nPersonalize\n1.7X↑\nCurrent Service\n0.159\nRecommendation\n2.6X↑\nAlgorithm"
+  },
+  {
+   "category": "Heading1",
+   "text": "Comparison Case of Domestic Subscription\nPlatform Recommendation Model"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Comparison of quantitative evaluations among\npersonalized content recommendations"
+  },
+  {
+   "category": "Chart",
+   "text": "0.03 0.06 0.09\nUpstage\nCustomerBERT\naws Personalize AWS Ready\n14.3%↑\nAutoEncoder\n_RecVAE\nAutoEncoder\n_CDAE\nAutoEncoder\n_MultiVAE\nGNN_LightGCN\nCF_BPR\nStatistic_\nMostPop\nStatistic_ : Recall@10, accuracy\nCotergoryPop : NDCG@10, Ranking"
+  },
+  {
+   "category": "Heading1",
+   "text": "Education Content Platform PoC Case"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Comparison of prediction rates of correct/incorrect\nanswers based on personalized questions"
+  },
+  {
+   "category": "Chart",
+   "text": "0.882\n0.735\nCompared to\nregular model\n20%↑\nUpstage Traditional\nDKT Model Statistical Model(IRT)"
+  },
+  {
+   "category": "Footer",
+   "text": "20"
+  }
+ ]
+}

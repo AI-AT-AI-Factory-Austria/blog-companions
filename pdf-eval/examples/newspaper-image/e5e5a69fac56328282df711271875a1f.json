@@ -1,0 +1,18 @@
+{
+  "type": "image",
+  "tags": ["newspaper", "multi-column"],
+  "checks": [
+    {"id": "lead headline", "type": "present", "text": "Trump in Charge, Republicans Have Day of Reckoning", "fuzzy": 0.9},
+    {"id": "left headline", "type": "present", "text": "Bank Customers Likely to Regain Access to Courts", "fuzzy": 0.9},
+    {"id": "photo caption", "type": "present", "text": "A Presidential Glass of Flint Water", "fuzzy": 0.9},
+    {"id": "prince headline", "type": "present", "text": "Pain and Pills, and Help Too Late to Save Prince", "fuzzy": 0.9},
+    {"id": "iraq headline", "type": "present", "text": "Firefight Death in Iraq May Presage U.S. Future", "fuzzy": 0.9},
+    {"id": "nc headline", "type": "present", "text": "U.S. Warns North Carolina to Change Bias Law", "fuzzy": 0.9},
+    {"id": "nominee headline", "type": "present", "text": "Nominee-to-Be Talks of First 100 Days", "fuzzy": 0.9},
+    {"id": "unity headline", "type": "present", "text": "Calls for Unity Clash With Deep Anxiety", "fuzzy": 0.9},
+    {"id": "left column order", "type": "order", "before": "Bank Customers Likely to Regain Access to Courts", "after": "Agency Moves to Assert Consumers' Right to Sue as a Group", "fuzzy": 0.9},
+    {"id": "kicker order", "type": "order", "before": "Limits on Arbitration", "after": "Agency Moves to Assert", "fuzzy": 0.9},
+    {"id": "page order", "type": "order", "before": "Pain and Pills", "after": "Firefight Death in Iraq", "fuzzy": 0.9},
+    {"id": "columns order", "type": "order", "before": "Nominee-to-Be Talks of First 100 Days", "after": "Calls for Unity Clash With Deep Anxiety", "fuzzy": 0.9}
+  ]
+}

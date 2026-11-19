@@ -1,0 +1,76 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "2"
+  },
+  {
+   "category": "Header",
+   "text": "Numerical Methods for Ordinary Differential Equations"
+  },
+  {
+   "category": "Paragraph",
+   "text": "also plays an important role in error analysis (investigating the difference between the numerical\napproximation and the solution)."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Calculating with only a finite subset of the rational numbers has many consequences. For exam-\nple: a computer cannot distinguish between two polynomials of sufficiently high degree. Conse-\nquently, methods based on the main theorem of algebra (i.e. that an nth degree polynomial has\nexactly n complex zeros) cannot be trusted. Errors that follow from the use of finitely many digits\nare called rounding errors (Section 1.4)."
+  },
+  {
+   "category": "Paragraph",
+   "text": "An important aspect of numerical mathematics is the emphasis on efficiency. Contrary to or-\ndinary mathematics, numerical mathematics considers an increase in efficiency, i.e. a decrease\nof the number of operations and / or amount of storage required, as an essential improvement.\nProgress in this aspect is of great practical importance and the end of this development has not\nbeen reached yet. Here, the creative mind will meet many challenges. On top of that, revolutions\nin computer architecture will overturn much conventional wisdom."
+  },
+  {
+   "category": "Heading1",
+   "text": "1.3 Why numerical mathematics?"
+  },
+  {
+   "category": "Paragraph",
+   "text": "A big advantage of numerical mathematics is that it can provide answers to problems that do not\nadmit closed-form solutions. Consider for example the integral"
+  },
+  {
+   "category": "Equation",
+   "text": "\\int_0^\\pi\\sqrt{1+\\cos^2x}dx\\text{.}"
+  },
+  {
+   "category": "Paragraph",
+   "text": "This is an expression for the arc length of one arc of the curve y(x) = sin x, which does not have\na solution in closed form. A numerical method, however, can approximate this integral in a very\nsimple way (Chapter 5). An additional advantage is that a numerical method only uses stan-\ndard function evaluations and the operations addition, subtraction, multiplication and division.\nBecause these are exactly the operations a computer can perform, numerical mathematics and\ncomputers form a perfect combination."
+  },
+  {
+   "category": "Paragraph",
+   "text": "An advantage of analytical methods is that the solution is given by a mathematical formula.\nFrom this, insight in the behavior and the properties of the solution can be gained. For numerical\napproximations, however, this is not the case. In that case, visualization tools may be used to gain\ninsight in the behavior of the solution. Using a numerical method to draw a graph of a function\nis usually a more useful tool than evaluating the solution at a large number of points."
+  },
+  {
+   "category": "Heading1",
+   "text": "1.4 Rounding errors"
+  },
+  {
+   "category": "Paragraph",
+   "text": "A computer uses a finite representation of the all numbers in R. These are stored in a computer\nin the form"
+  },
+  {
+   "category": "Equation",
+   "text": "\\pm0.d_1d_2\\ldotsd_n\\cdot\\beta^e\\text{,}"
+  },
+  {
+   "category": "Caption",
+   "text": "(1.1)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "in which, by definition, d1 > 0 and 0 ≤ di < �. The normalization is needed in order to prevent a\nwaste of digits and to make the representation unambiguous. We call the value in equation (1.1)\na floating point number (representation) in which 0.d1d2 . . . dn is called the mantissa, � the base and\ne (integer) the exponent, where L < e < U. Characteristic values for |L| and U are in the range\n[100,1000], often, � = 2 (binary representation) and n = 24 (single precision) or n = 53 (double\nprecision). Most computers and software packages (Matlab) satisfy the IEEE-754 standard, and\nhence provide single-1 and double-precision2 computations."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Let for x ∈ R"
+  },
+  {
+   "category": "Equation",
+   "text": "0.d_1\\ldotsd_n\\cdot\\beta^e\\leqx<0.d_1d_2\\ldots\\left(d_n+1\\right)\\cdot\\beta^e\\text{,}"
+  },
+  {
+   "category": "Footnote",
+   "text": "1http://en.wikipedia.org/wiki/Single-precision_floating-point_format\n2http://en.wikipedia.org/wiki/Double-precision_floating-point_format"
+  }
+ ]
+}

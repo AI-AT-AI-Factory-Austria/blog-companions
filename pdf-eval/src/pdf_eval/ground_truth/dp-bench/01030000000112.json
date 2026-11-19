@@ -1,0 +1,59 @@
+{
+ "elements": [
+  {
+   "category": "List",
+   "text": "· Adjust the point gauge to read 10 mm greater than the datum."
+  },
+  {
+   "category": "List",
+   "text": "· Record the reading as h."
+  },
+  {
+   "category": "List",
+   "text": "· Turn on the pump, and slightly adjust the flow until the water level coincides with the point\ngauge. Check that the level has stabilized before taking readings."
+  },
+  {
+   "category": "List",
+   "text": "· Measure the flow rate using the volumetric tank."
+  },
+  {
+   "category": "List",
+   "text": "· Observe the shape of the nappe and take pictures of it."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Note: The surface of the water will fall as it approaches the weir. This is particularly noticeable at high\nflow rates by high heads. To obtain an accurate measurement of the undisturbed water level above the\ncrest of the weir, it is necessary to place the measuring gauge at a distance of at least three times the\nhead above the weir."
+  },
+  {
+   "category": "Paragraph",
+   "text": "· Increase the flow by opening the bench regulating valve to set the heads above the datum level\nin 10 mm increments until the regulating valve is fully open. Take care not to allow spillage to\noccur over the plate top that is adjacent to the notch. At each condition, measure the flow rate\nand observe the shape of the nappe."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Note: To obtain a sufficiently accurate result, collect around 25 liters of water each time, or collect the\nwater for at least 120 seconds."
+  },
+  {
+   "category": "List",
+   "text": "· Close the regulating valve, stop the pump, and then replace the weir with the V-notch."
+  },
+  {
+   "category": "List",
+   "text": "· Repeat the experiment with the V-notch weir plate, but with 5 mm increments in water\nsurface elevation."
+  },
+  {
+   "category": "List",
+   "text": "· Collect seven head and discharge readings for each weir."
+  },
+  {
+   "category": "Figure"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 9.3: Position of the notch and Vernier height gauge to set the datum."
+  },
+  {
+   "category": "Footer",
+   "text": "80 APPLIED FLUID MECHANICS LAB MANUAL"
+  }
+ ]
+}

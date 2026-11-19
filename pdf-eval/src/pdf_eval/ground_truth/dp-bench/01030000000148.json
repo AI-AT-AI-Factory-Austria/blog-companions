@@ -1,0 +1,52 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "ECO\nCircle"
+  },
+  {
+   "category": "Header",
+   "text": "Co-funded by\nthe European Union"
+  },
+  {
+   "category": "Paragraph",
+   "text": "As seen in this chart of responses, we were very satisfied to reach diversity in age groups, with\nall groups being represented by over 10%. The main group reached was of ages 36-45, and the\nleast represented was the youngest age group of 18-25."
+  },
+  {
+   "category": "Heading1",
+   "text": "Education Level\n122 responses"
+  },
+  {
+   "category": "Chart",
+   "text": "Primary\nLower Secondary\nUpper Secondary\n76.2%\nNon-formal Training\nBachelor's Degree or Higher\nMaster degree\nBac+5\n18%\nPh. D."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Regarding the education level of responders, we were satisfied to receive a very high level of\nresponses with Bachelor's or higher degrees, with the significant share of others coming from"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Upper Secondary-educated participants. There was also a small representation of non-formal\ntraining, as well as >1% representation for other options."
+  },
+  {
+   "category": "Heading1",
+   "text": "Profession\n122 responses"
+  },
+  {
+   "category": "Chart",
+   "text": "Social Entrepreneur\n19.7% Youth Worker\nEducator/Trainer\nUniversity Professor\nExpert in Circular Economy\nYouth Leader\n12.3%\n18.9% Project Manager\nStudent\n19.7%\n1/3"
+  },
+  {
+   "category": "Paragraph",
+   "text": "For responders' profession, the most common answers representing 19.7% equally, were Youth\nWorkers and Project Managers, although practising Social Entrepreneurs were also well\nrepresented, along with an 8% response rate from self-declared circular economy experts."
+  },
+  {
+   "category": "Footer",
+   "text": "This project has been funded with the support of the European Commission. This publication reflects the views only of the author\nand the Commission cannot be held responsible for any use which may be made of the information contained therein."
+  },
+  {
+   "category": "Footer",
+   "text": "Project No: : 2021-2-FR02-KA220-YOU-000048126"
+  }
+ ]
+}

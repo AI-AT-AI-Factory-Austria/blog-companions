@@ -1,0 +1,35 @@
+{
+ "elements": [
+  {
+   "category": "Figure"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 12.2. A set of open textbooks printed in bulk are featured in this photo. Open textbooks from the\nOpen Course Library, picture by Tom Caswell, CC BY 2.0."
+  },
+  {
+   "category": "Heading1",
+   "text": "What tool(s) do you typically use in your course?"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Ask whether the instructor utilizes your institution's course management system (Canvas,\nBlackboard, etc.), or a separate course website to communicate and share content with students.\nThis may affect the tools and practices you recommend."
+  },
+  {
+   "category": "Heading1",
+   "text": "What supporting materials do you utilize for this course?"
+  },
+  {
+   "category": "Paragraph",
+   "text": "If the instructor relies on self-grading homework platforms or ancillary presentations and lecture\nnotes from publishers, you will want to discuss the various free and low-cost options available to\nreplace that content (See Chapter 15, Finding Ancillaries for OER)."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Alternatively, does the instructor already supplement their course materials with course notes or\nmaterials they have personally created? Often, when traditional materials are lacking or require\nsupplement, instructors will create notes, reading lists, or other content to \"back up\" any\ntraditional, commercial content used in their course. This instructor-created content can be\nreused with OER as well, or even adapted into a new open resource in the future."
+  },
+  {
+   "category": "Footer",
+   "text": "164 | SUPPORTING OER ADOPTION"
+  }
+ ]
+}

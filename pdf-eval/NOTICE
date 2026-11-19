@@ -1,0 +1,18 @@
+pdf-eval
+
+This package includes code from opendataloader-bench
+(https://github.com/opendataloader-project/opendataloader-bench), licensed
+under the Apache License 2.0. The files converter_markdown_table.py,
+evaluator_reading_order.py, evaluator_table.py and evaluator_heading_level.py
+are copied from it with package-relative imports as the only change.
+
+evaluator_table.py is in turn derived from PubTabNet
+(https://github.com/ibm-aur-nlp/PubTabNet, Apache License 2.0), described in
+"Image-based table recognition: data, model, and evaluation"
+(https://arxiv.org/abs/1911.10683).
+
+The bundled ground truth in src/pdf_eval/ground_truth/dp-bench is from
+DP-Bench by Upstage (https://huggingface.co/datasets/upstage/dp-bench),
+licensed under MIT: the .md files are the Markdown reference as converted
+and corrected by opendataloader-bench; the .json files hold the element
+categories and text of its reference.json (coordinates removed).

@@ -1,0 +1,28 @@
+{
+ "elements": [
+  {
+   "category": "Paragraph",
+   "text": "What's unique about the growth of Alligator Gars is their fast growth in the first years of life followed by slower\ngrowth (Figure 8.6; Figure 8.7). Juvenile Alligator Gars quickly transition to fish-eating habits (Butler et al. 2018).\nA fish diet means the juveniles grow at 4-5 mm per day in the first three months of life, so that by the end of the\nfirst growing season they may reach 1.5 to 2 feet in length (~40-70 cm) and 8-10 pounds in weight (Sakaris et al.\n2019). Despite their fast growth, young Alligator Gars are preyed upon by many larger fish."
+  },
+  {
+   "category": "Chart",
+   "text": "in cm Length of Gar Fish by Age\n120 300\n100 250\n80 200\nin)\nLength\nand\n60 150\n(cm\n40 100\n20 50\n0 0\n0 10 20 30 40 50 60 70 80 90\nAge (years)"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 8.6: Growth in length of Alligator Gar in Texas. Figure 8.7: Growth in weight of Alligator\nGar in Texas. Long description."
+  },
+  {
+   "category": "Chart",
+   "text": "Ibs kg Weight of Gar Fish by Age\n140\n300\n120\n250\n100 Texas rod & reel\n200 record alligator gar\n(279 lbs)\nlbs)\n80\nWeight\nand\n150\n60\n(kg\n100\n40\n50 20\n0\n0\n0 10 20 30 40 50 60 70 80 90\nAge (years)"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 8.7: Growth in weight of Alligator Gar in Texas."
+  },
+  {
+   "category": "Footer",
+   "text": "Angling and Conservation of Living Fishy Dinosaurs | 171"
+  }
+ ]
+}

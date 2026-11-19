@@ -1,0 +1,68 @@
+{
+ "elements": [
+  {
+   "category": "Figure",
+   "text": "b)\n24 mm ⌀\n8 mm ⌀ 16 mm ⌀\na)\nCylindrical vessel\n3-way valve\nOutlet valve\nc) d)\nInlet pipe\n15-degree angled tubes 60-degree angled tubes"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 8.1:a) P6238 CUSSONS free and forced vortex apparatus, b) push-in orifices, c) free vortex measuring caliper, d) force vortex\nmeasuring probes"
+  },
+  {
+   "category": "Heading1",
+   "text": "7. THEORY"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Two types of vortices are distinguished in the dynamics of the motion: forced and free vortices. The\nforced vortex is caused by external forces on the fluid, such as the impeller of a pump, and the free\nvortex naturally occurs in the flow and can be observed in a drain or in the atmosphere of a tornado."
+  },
+  {
+   "category": "Heading1",
+   "text": "7.1. FREE VORTEX"
+  },
+  {
+   "category": "Paragraph",
+   "text": "A free vortex is formed when water flows out of a vessel through a central hole in the base (Figure 8.2).\nThe degree of the rotation depends on the initial disturbance. In a free cylindrical vortex, the velocity\nvaries inversely with the distance from the axis of rotation (Figure 8.3)."
+  },
+  {
+   "category": "Equation",
+   "text": "v=\\frac{k}{r}"
+  },
+  {
+   "category": "Caption",
+   "text": "(1)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "The equation governing the surface profile is derived from the Bernoulli's theorem:"
+  },
+  {
+   "category": "Equation",
+   "text": "\\frac{v^2}{2g}+z=C"
+  },
+  {
+   "category": "Caption",
+   "text": "(2)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Substituting Equation (1) into (2) will give a new expression:"
+  },
+  {
+   "category": "Equation",
+   "text": "\\frac{k^2}{2gr^2}+z=C"
+  },
+  {
+   "category": "Caption",
+   "text": "(3)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "or:"
+  },
+  {
+   "category": "Footer",
+   "text": "68 APPLIED FLUID MECHANICS LAB MANUAL"
+  }
+ ]
+}

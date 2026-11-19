@@ -1,0 +1,40 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "Jailed for Doing Business"
+  },
+  {
+   "category": "Caption",
+   "text": "TABLE 22: COMMERCIAL LAWS WITH MORE THAN 100\nIMPRISONMENT CLAUSES"
+  },
+  {
+   "category": "Table",
+   "html": "<tr><td>Law</td><td>Union/State rule</td><td>Imprisonment clauses</td></tr><tr><td>Arms Act, 1959 and Arms Rules 2016</td><td>Union</td><td>152</td></tr><tr><td>Food Safety & Standards Act, 2006 & Food Safety and Standards (Licensing and Registration of Food Businesses) Regulations, 2011</td><td>Union</td><td>123</td></tr>"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Source: TeamLease Regtech"
+  },
+  {
+   "category": "Caption",
+   "text": "TABLE 23: IMPRISONMENT CLAUSES IN ENVIRONMENT,\nHEALTH AND SAFETY LAWS"
+  },
+  {
+   "category": "Table",
+   "html": "<tr><td>Imprisonment term</td><td>Number of clauses</td><td>Number of laws</td></tr><tr><td>Less than 3 months</td><td>150</td><td>35</td></tr><tr><td>3 months to less than 1 year</td><td>199</td><td>14</td></tr><tr><td>1 year to less than 3 years</td><td>326</td><td>16</td></tr><tr><td>3 years to less than 5 years</td><td>357</td><td>22</td></tr><tr><td>5 years to less than 10 years</td><td>147</td><td>27</td></tr><tr><td>More than 10 years</td><td>0</td><td>0</td></tr>"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Source: TeamLease Regtech"
+  },
+  {
+   "category": "Paragraph",
+   "text": "NOTE: The inconsistency in number of laws is because a single law could have\nmultiple clauses on criminality; it could have a few clauses of less than\nthree months and few of between three and five years."
+  },
+  {
+   "category": "Footer",
+   "text": "78"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "elements": [
+  {
+   "category": "Paragraph",
+   "text": "should adopt two separate designators to mark no-cost VS. low-cost, but the council felt it was better\nto simplify the process and allow for some OER providers that have fees associated with their services."
+  },
+  {
+   "category": "Paragraph",
+   "text": "At this point in time, the application of the #NOLO designator was a manual process. It required the\naddition of the designator to the section title prior to registration and then its removal after add/drop\nto ensure the label didn't appear on the student transcript. This process severely hampered our long-\nterm reporting abilities. In total, four colleges adopted the #NOLO designator in this fashion."
+  },
+  {
+   "category": "Paragraph",
+   "text": "To assist in greater faculty and institutional adoption as well as improve data capture, the CSCU OER\nAdvisory Council made a formal recommendation to the provost's academic council in Spring 2018\nto implement the #NOLO designator as a course section attribute within the student information\nsystem. In addition to adding a course section attribute, a student-facing course search filter was\nadded as well as an additional column within the course search results page."
+  },
+  {
+   "category": "Figure",
+   "text": "Your materials for:\nLIB 100 - Lib & Resch Methods\n☑ Adoptions not Required\n○ This course does not use books\n⊙ Course uses OER/Zero cost course\n○ Other non-bookstore materials\nContinue"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 2.1: Filtered Search Option for NOLO Sections."
+  },
+  {
+   "category": "Figure",
+   "text": "extbook NoLo Cred\ntextbook info 3.00 St\ntextbook info NoLo 3.00 Pu\ntextbook info NoLo 3.00 Pu\ntextbook info NoLo 3.00 TF\nbook info NoLo 3.00"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 2.2: Added Column in Results for NOLO\nDesignator."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The request to implement the designator within the student information system was supported in\nFall 2018 by the president's cabinet. The ability to mark courses was enabled late Fall 2018 and the\nstudent-facing features were enabled in January 2019. Each institutional representative on the OER\ncouncil engaged with their local governance structures to request a vote for adoption."
+  },
+  {
+   "category": "Footer",
+   "text": "4 BOYOUNG CHAE, KEVIN CORCORAN, MICHAEL DALY, ANN FIDDLER, JEFF GALLANT, JAMES GLAPA-GROSSKLAG, AMY HOFER, AND"
+  }
+ ]
+}

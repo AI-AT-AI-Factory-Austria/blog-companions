@@ -1,0 +1,32 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "322"
+  },
+  {
+   "category": "Header",
+   "text": "YARROW"
+  },
+  {
+   "category": "Paragraph",
+   "text": "observer model with three parameters captures PSS, sensory noise and an in-\nterval bias (i.e., a tendency to select one interval in preference to the other\nunder uncertainty)."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The 2xSJ task provides estimates that correlate fairly well with equivalent\nparameters estimated using TOJs, SJs, and ternary tasks. However, each trial\ntakes longer than in those single-presentation tasks, which makes experi-\nments more onerous. There are a few reasons why the roving-standard 2xSJ is\nstill worth considering. Firstly, it asks about synchrony explicitly (unlike the\nTOJ) and by requiring relative judgements it reveals a point of maximal syn-\nchrony perception (whereas the SJ and ternary tasks often reveal a range of\nSOA values that are classified as synchronous). Secondly, it can be added in\nto a single-presentation task (as a follow-up question every two trials), which\nsomewhat mitigates the burden of additional experimental time. Finally, a case\ncan be made that it will be more resistant to some forms of decision-level bias\n(Morgan, Grant, Melmoth, & Solomon, 2015; Morgan, Melmoth, & Solomon,\n2013). As with the other tasks I have described, code to fit data from the 2xSJ\naccompanies this chapter.23 For further information, read the comments there\nand consult Yarrow et al. (2016)."
+  },
+  {
+   "category": "Heading1",
+   "text": "12 Conclusion"
+  },
+  {
+   "category": "Paragraph",
+   "text": "In this chapter, I have outlined the benefits of fitting formal observer models\nto judgements about simultaneity, and described how this can be achieved us-\ning Matlab code (see book's GitHub repository). In doing so, I have presented\none particular observer model in some detail, and highlighted the fundamen-\ntally subjective nature of the SJ task, which requires us to think carefully about\nhow both the strategic decisions and perceptual sensitivity of a participant\ncan affect their psychometric function. I have gone on to supply a brief over-\nview of appropriate models for several closely related timing tasks. I hope I\nhave also provided enough of a tutorial regarding bespoke model fitting and\nevaluation to allow the interested reader to go forward and explore their own\nmodels of perceived simultaneity. Modelling may seem intimidating, but in\nfact, a good understanding of just a few basic concepts (which is best gained\nthrough practical exploration) will take you a long way, providing tools to\nengage more fully with the timing literature. This is an endeavour I would very\nmuch encourage!"
+  },
+  {
+   "category": "Footnote",
+   "text": "23 <TwoAFCSimulanety_3PEq_Multistart_rawdata>."
+  }
+ ]
+}

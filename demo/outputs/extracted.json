@@ -1,0 +1,35 @@
+{
+  "lake": "fictional lake",
+  "year": 2025,
+  "stations": [
+    {
+      "station": "A",
+      "location": "north shore",
+      "temperature_c": 21.4,
+      "visibility_m": 4.2,
+      "phosphorus_ug_per_l": 11.0
+    },
+    {
+      "station": "B",
+      "location": "Mira inflow",
+      "temperature_c": 20.8,
+      "visibility_m": 2.9,
+      "phosphorus_ug_per_l": 17.0
+    },
+    {
+      "station": "C",
+      "location": "lake centre",
+      "temperature_c": 21.9,
+      "visibility_m": 5.1,
+      "phosphorus_ug_per_l": 9.0
+    },
+    {
+      "station": "D",
+      "location": "south bay",
+      "temperature_c": 22.3,
+      "visibility_m": 4.6,
+      "phosphorus_ug_per_l": 10.0
+    }
+  ],
+  "bathing_limit_exceeded": false
+}

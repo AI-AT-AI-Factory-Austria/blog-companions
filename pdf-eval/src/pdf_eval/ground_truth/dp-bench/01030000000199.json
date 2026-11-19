@@ -1,0 +1,44 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "Overview of OCR Pack"
+  },
+  {
+   "category": "Heading1",
+   "text": "Base Model Performance Evaluation of Upstage OCR Pack"
+  },
+  {
+   "category": "Heading1",
+   "text": "Upstage universal OCR model E2E performance\nevaluation1"
+  },
+  {
+   "category": "Chart",
+   "text": "100\n95\n95.5\n90 92.4\n85\n82.07\n80.41\n80\n75.66\n75\n70.23\n70\n65\nCompany Company upstage Company Company upstage\nA2 B2 A2 B2\nScene (Photographed document image) Document (Scanned document image)"
+  },
+  {
+   "category": "Footnote",
+   "text": "1 Performance based on universal model, additional performance improvement is possible by implementing specialized\nmodels according to business requirements\n2 A: Universal model of global leading AI company / B: Universal model of leading AI company in Korea, 2022. 5 Test criteria"
+  },
+  {
+   "category": "Heading1",
+   "text": "Upstage universal OCR model performance details: Document\ncriteria"
+  },
+  {
+   "category": "Paragraph",
+   "text": "11"
+  },
+  {
+   "category": "Chart",
+   "text": "73.2\nOCR-Recall3 7 94.2\n94.1 4\n5\n89.0\nOCR-Precision4 90.6 9\n4 96.8\n9\n80.4\nOCR-F15 1 92.\n4 95.5\n■ Company A\n■ Company B\nParsing-F1 68.0\n82.65 ■ upstage\n65 70 75 80 85 90 95 100"
+  },
+  {
+   "category": "Footnote",
+   "text": "3 Recall: Percentage of what the OCR model predicted to be True from those that were actually True\n4 Precision: Percentage of what the OCR model classifies as True, which is actually True\n5 F1: Harmonic mean value of Recall and Precision\n6. Parsing-F1: Comparison of parsing model F1 of both companies for business registration document\nform. Company A is excluded from comparison due to the absence of the document parsing model."
+  },
+  {
+   "category": "Footer",
+   "text": "upstage"
+  }
+ ]
+}

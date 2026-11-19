@@ -1,0 +1,40 @@
+{
+ "elements": [
+  {
+   "category": "Heading1",
+   "text": "Upstage aims to enrich your business by providing\nEasy-to-Apply AI solutions"
+  },
+  {
+   "category": "Heading1",
+   "text": "Our Purpose"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Making AI Beneficial"
+  },
+  {
+   "category": "Heading1",
+   "text": "Our Mission"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Easy-to-apply AI,\nEverywhere"
+  },
+  {
+   "category": "Heading1",
+   "text": "What We Do"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Providing the world's best and easy-to-use\nAI solutions for everyone"
+  },
+  {
+   "category": "List",
+   "text": "· Plug-and-play to cross/multi-cloud system\n· Ensuring performance tailored to customer data via retraining\n· Providing a platform that allows easy distribution and management of\nAI solutions\n· AI consulting service to help AI transformation"
+  },
+  {
+   "category": "Footer",
+   "text": "3"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "elements": [
+  {
+   "category": "Paragraph",
+   "text": "Soils with the same pH may require different amounts of limestone due to differences in CEC, which would imply\ndifferences in buffering capacities. For example, consider the amount of limestone necessary to raise the base saturation\nof two soils from 70% to 90% when one soil has a CEC of 15 cmolc/kg, and the other has a CEC of 40 cmolc/kg."
+  },
+  {
+   "category": "Equation",
+   "text": "15\\frac{\\mathrm{cmol}_{\\mathrm{c}}}{\\mathrm{kg}}\\times20\\%\\text{increase}=3\\frac{\\mathrm{cmol}_{\\mathrm{c}}}{\\mathrm{kg}}\\text{basiccationsrequiredfromlime}"
+  },
+  {
+   "category": "Equation",
+   "text": "40\\frac{\\mathrm{cmol}_{\\mathrm{c}}}{\\mathrm{kg}}\\times20\\%\\text{increase}=8\\frac{\\mathrm{cmol}_{\\mathrm{c}}}{\\mathrm{kg}}\\text{basiccationsrequiredfromlime}"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Lastly, soil pH is governed by base saturation. If other factors are constant, the lower the pH, the more lime that is\nrequired to achieve a desired pH. This is because at a low pH, a larger percentage of the CEC is occupied by acid cations,\nwhich requires larger amounts of lime to neutralize."
+  },
+  {
+   "category": "Heading1",
+   "text": "Activity 1: Determining pH With Indicator Strips (Field Method)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Of the several techniques available for determining pH, one that can be used easily in the field is the indicator strip\nmethod. This technique uses the principle of pH sensitivity of certain dyes, which cause differences in color across a\nrange in pH. With the soils provided, complete the following pH determination:"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Weigh 10.0 g of soil into a small plastic cup. Add 20 ml of distilled water and stir. Allow to stand for 5 minutes,\noccasionally stirring."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Using the pH indicator strips provided, dip the strip into the cup until the tip is wetted. Determine the pH by comparing\nthe color change of the pH test strip to the color chart."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Record the soil pH in Table 14.1."
+  },
+  {
+   "category": "Heading1",
+   "text": "Activity 2: Determining Soil pH with a pH Meter"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Laboratory pH meters are more accurate than pH dyes and strips. The pH meter measures the hydrogen ion activity [H+]\nby measuring the electric potential across a thin, porous glass membrane at the base of the electrode. This potential\nchanges in response to [H+], and by standardizing the instrument with buffers of known pH, we can measure the pH of\nany solution, including soil solutions."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Using the samples prepared in Activity 1, carefully place the electrode in the suspension. Gently swirl the electrode in\nthe solution, and note the pH reading. Wait for the pH meter to reach a steady reading, indicated by the word \"ready\"\non the screen."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Record the value for this 1:2 soil-water suspension in Table 14.1."
+  },
+  {
+   "category": "Footer",
+   "text": "Soil Acidity and Adjusting Soil pH | 127"
+  }
+ ]
+}

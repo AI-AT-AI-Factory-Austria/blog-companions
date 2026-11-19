@@ -1,0 +1,32 @@
+{
+ "elements": [
+  {
+   "category": "Chart",
+   "text": "1\n0.8\nmade\nputts\nPutt for par\n0.6\nPutt for birdie\nof\nFraction\n0.4\n0.2\n0\n0 25 50 75 100 125 150 175 200\nDistance to hole (inches)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "(Pope and Schweitzer 2011)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "To reiterate, this study's main econometric results reveal a negative effect on sinking a putt when\nthe typical golfer is putting for birdie, and a positive effect on putting for bogey. Consistent with the\nprevious graphs, these numerical results suggest that the typical professional golfer is more likely to\nsink a put for bogey and less likely to sink the putt for birdie (i.e., the typical golfer is indeed loss\naverse).10"
+  },
+  {
+   "category": "Heading1",
+   "text": "ARE CIGARETTE SMOKERS HYPERBOLIC TIME DISCOUNTERS?"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Recall from Chapter 4 the distinction between time-consistent exponential time discounters (Homo\neconomicus) and potentially time-inconsistent hyperbolic discounters (Homo sapiens). The discounting\ntime paths for exponential versus hyperbolic discounting looked like this:"
+  },
+  {
+   "category": "Footnote",
+   "text": "10. A negative effect associated with putting for double bogey suggests that the typical golfer suppresses his inclination for loss\naversion when putting for a score worse than bogey."
+  },
+  {
+   "category": "Footer",
+   "text": "BEHAVIORAL ECONOMICS PRACTICUM 193"
+  }
+ ]
+}

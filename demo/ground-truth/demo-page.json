@@ -1,0 +1,29 @@
+{
+  "type": "report",
+  "tags": ["two-columns", "borderless-table"],
+  "elements": [
+    {"category": "header", "text": "Lake Aurel Monitoring Report 2025"},
+    {"category": "header", "text": "Section 3"},
+    {"category": "heading1", "text": "3 Water quality in the summer of 2025"},
+    {"category": "paragraph", "text": "The fictional lake used throughout this article."},
+    {"category": "heading2", "text": "3.1 Sampling"},
+    {"category": "paragraph", "text": "Samples were taken every fortnight at four stations, from May to September. Each sample was filtered on site and analysed within six hours, which keeps the measured phosphorus close to its value in the lake. The official limit for bathing water was never exceeded.1"},
+    {"category": "paragraph", "text": "Station B sits near the inflow of the Mira stream. Its values follow the rainfall of the preceding days more closely than those of the other stations."},
+    {"category": "heading2", "text": "3.2 Findings"},
+    {"category": "paragraph", "text": "Water temperature peaked at 24.1 °C in early August. Visibility was lowest at station B after two days of heavy rain, when the stream carried fine sediment into the lake. The algae bloom expected for July did not occur; the lower phosphorus load of the last three years is the most likely reason, although a cool June may have contributed."},
+    {"category": "paragraph", "text": "The table below lists the summer means for each station."},
+    {"category": "caption", "text": "Table 3.1: Summer means per station (May to September 2025)"},
+    {"category": "table", "html": "<table><tr><th>Station</th><th>Temperature (°C)</th><th>Visibility (m)</th><th>Phosphorus (µg/l)</th></tr><tr><td>A, north shore</td><td>21.4</td><td>4.2</td><td>11</td></tr><tr><td>B, Mira inflow</td><td>20.8</td><td>2.9</td><td>17</td></tr><tr><td>C, lake centre</td><td>21.9</td><td>5.1</td><td>9</td></tr><tr><td>D, south bay</td><td>22.3</td><td>4.6</td><td>10</td></tr></table>"},
+    {"category": "footnote", "text": "1 Limit values as in the regional bathing water ordinance."},
+    {"category": "footer", "text": "14"}
+  ],
+  "checks": [
+    {"id": "columns", "type": "order", "before": "those of the other stations", "after": "Water temperature peaked"},
+    {"id": "official", "type": "present", "text": "official limit"},
+    {"id": "title", "type": "heading", "text": "3 Water quality in the summer of 2025"},
+    {"id": "subsection", "type": "heading", "text": "3.2 Findings"},
+    {"id": "cell-B-phosphorus", "type": "table", "cell": "17", "row": "B, Mira inflow", "column": "Phosphorus (µg/l)"},
+    {"id": "cell-A-temperature", "type": "table", "cell": "21.4", "row": "A, north shore", "column": "Temperature (°C)"},
+    {"id": "temperature", "type": "present", "text": "24.1 °C"}
+  ]
+}

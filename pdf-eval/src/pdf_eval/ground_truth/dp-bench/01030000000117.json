@@ -1,0 +1,64 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "MOHAVE COMMUNITY COLLEGE"
+  },
+  {
+   "category": "Header",
+   "text": "BIO181"
+  },
+  {
+   "category": "Table",
+   "html": "<tr><td>Saccharometer</td><td>DI Water</td><td>Glucose Solution</td><td>Yeast Suspension</td></tr><tr><td>2</td><td>24 ml</td><td>0 ml</td><td>4 ml</td></tr><tr><td>3</td><td>12 ml</td><td>12 ml</td><td>4 ml</td></tr><tr><td>4</td><td>4 ml</td><td>12 ml</td><td>12 ml</td></tr>"
+  },
+  {
+   "category": "Heading1",
+   "text": "Employing Steps in the Scientific Method:"
+  },
+  {
+   "category": "List",
+   "text": "1. Record the Question that is being investigated in this experiment."
+  },
+  {
+   "category": "List",
+   "text": "2. Record a Hypothesis for the question stated above."
+  },
+  {
+   "category": "List",
+   "text": "3. Predict the results of the experiment based on your hypothesis (if/then)."
+  },
+  {
+   "category": "List",
+   "text": "4. Perform the experiment below and collect your data."
+  },
+  {
+   "category": "Heading1",
+   "text": "Procedure:"
+  },
+  {
+   "category": "List",
+   "text": "1. Prepare yeast suspension: Add 7 grams yeast to 50 ml warm tap water. Stir to mix.\nAlternatively, you can use the yeast suspension from Part 2. Optional: Add a few drops of\nred food coloring to the yeast to increase contrast, allowing easier measuring of the\nheight of yeast in saccharometers.\n2. Label 4 test tubes and 4 saccharometers # 1- 4. Use a transfer pipette to add the\nappropriate amount of glucose and distilled water listed in Table 2 to the corresponding\nlabeled test tubes.\n3. Use a transfer pipette to add the appropriate amount of yeast solution listed in Table 1 to\nthe corresponding labeled test tubes. It is important to work carefully and quickly after\nadding the yeast solution to the glucose and water."
+  },
+  {
+   "category": "List",
+   "text": "4. Carefully pour the contents of the test tubes into the correspondingly labeled\nsaccharometer, ensuring that the solutions are well mixed."
+  },
+  {
+   "category": "List",
+   "text": "5. Carefully tilt the saccharometers to allow any air bubbles that are trapped in the arms of\nthe vertical tube to escape."
+  },
+  {
+   "category": "List",
+   "text": "6. Begin the timer for the experiment and measure the size of any bubbles (in mm) that are\ntrapped in the vertical arms of the saccharometers. Record this measurement as the 0 time\npoint."
+  },
+  {
+   "category": "List",
+   "text": "7. Position the saccharometers on the large plastic tray, positioning them around a plastic\nweigh boat to catch any fermentation overflow that may occur."
+  },
+  {
+   "category": "Footer",
+   "text": "59"
+  }
+ ]
+}

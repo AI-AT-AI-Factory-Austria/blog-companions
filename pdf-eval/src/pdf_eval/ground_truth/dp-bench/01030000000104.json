@@ -1,0 +1,32 @@
+{
+ "elements": [
+  {
+   "category": "Figure",
+   "text": "PUBLISHERS READERS\nAGGREGATORS\nLIBRARIANS"
+  },
+  {
+   "category": "Paragraph",
+   "text": "An overview of each actor's role in this ecosystem is described below."
+  },
+  {
+   "category": "Heading1",
+   "text": "Publishers"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Publishers work to \"make public\" scholarly work in the form of textbooks, journals, and\nmonographs, and represent a wide range of publishing approaches, business models,\nbudgets, and institutional affiliations. With our focus on monographs, the two most\nsignificant groups are large commercial publishers and university presses. These publish\nthe vast majority of monographs in circulation, although in recent years, smaller open\naccess publishers have also begun to emerge."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The role of publishers includes (among other things):"
+  },
+  {
+   "category": "List",
+   "text": "· acquisitions and list curation\n· editorial work and coordinating peer review\n· design and production (for various formats, typically: print, digital PDF, and EPUB)\n· distribution and marketing of finished products into various channels (libraries,\naggregators, stores) where readers can access books"
+  },
+  {
+   "category": "Footer",
+   "text": "6 | The Scholarly Publishing Ecosystem"
+  }
+ ]
+}

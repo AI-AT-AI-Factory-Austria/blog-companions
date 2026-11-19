@@ -1,0 +1,32 @@
+{
+ "elements": [
+  {
+   "category": "Caption",
+   "text": "Figure 4.2. Operating Capacity under the FIT Scheme"
+  },
+  {
+   "category": "Chart",
+   "text": "MW\n400\n■ Waste materials\n350\n■ Biogas\n300\n250\n■ Construction wood waste\n200\n■ General wood (10MW≤)\n150\n■ General wood (<10MW)\n100\n50 ■ Unutilised wood (2MW≤)\n0\n■ Unutilised wood (<2MW)\n12-13 2014 2015 2016 2017 2018 2019 2020"
+  },
+  {
+   "category": "Paragraph",
+   "text": "FIT = feed-in-tariff.\nSource: METI (2021a)."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The newly approved capacity has stagnated lately because some strict measures reduced\nthe accumulated idle capacity in the revised FIT Act of 2017. For instance, developers are\nrequired to have entered into the grid connection agreement with a utility company for\nan FIT approval and to submit a business plan for assessment of feasibility and\nsustainability. As a result, the approved biomass power capacity is about 160MW on\naverage in FY2018 and FY2019."
+  },
+  {
+   "category": "Paragraph",
+   "text": "A recent change in the FIT scheme is that new projects of biomass co-firing with coal in\nthe category of unutilised wood, general wood, and construction wood waste are no\nlonger eligible for the FIT scheme from FY2019.4 The data collected after implementation\nof the FIT scheme revealed that the generation costs of these biomass co-firing with coal\nare lower than the estimated costs of conventional biomass power plants in terms of\ncapital expenditures, operation and maintenance, and fuels. Hence, biomass co-firing\nwith coal does not have a rationale to receive support through the FIT scheme since it\ncould make profits without it. For reference, Figure 4.3 illustrates a biomass co-firing ratio\nof the major power utilities' coal-fired power plants. Nearly half of the coal-fired power\nplants co-combusted biomass in FY2019 and most of them are less than 1% ratio of\nbiomass."
+  },
+  {
+   "category": "Footnote",
+   "text": "4 Biomass of waste materials co-firing with coal is not eligible for the FIT scheme from FY2021."
+  },
+  {
+   "category": "Footer",
+   "text": "31"
+  }
+ ]
+}

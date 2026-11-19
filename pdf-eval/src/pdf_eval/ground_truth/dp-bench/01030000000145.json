@@ -1,0 +1,76 @@
+{
+ "elements": [
+  {
+   "category": "Heading1",
+   "text": "Chapter 4"
+  },
+  {
+   "category": "Heading1",
+   "text": "Nonlinear equations"
+  },
+  {
+   "category": "Heading1",
+   "text": "4.1 Introduction"
+  },
+  {
+   "category": "Paragraph",
+   "text": "The pressure drop in a fluid in motion is examined. For a flow in a pipe with a circular cross\nsection of diameter D (meter), the Reynolds number, Re, is given by"
+  },
+  {
+   "category": "Equation",
+   "text": "\\operatorname{Re}=\\frac{Dv}{v}\\text{,}"
+  },
+  {
+   "category": "Paragraph",
+   "text": "in which v (m/s) is the average flow velocity and v (m2/s) is the viscosity of the fluid. The flow is\ncalled laminar if Re < 2100 (low flow velocity) and turbulent if Re > 3000. For 2100 ≤ Re ≤ 3000,\nthe flow is neither laminar nor turbulent."
+  },
+  {
+   "category": "Paragraph",
+   "text": "For turbulent flows, the pressure drop between inflow and outflow is given by"
+  },
+  {
+   "category": "Equation",
+   "text": "P_{\\text{out}}-P_{\\text{in}}=\\frac{\\rhowLv^2}{2gD}\\text{,}"
+  },
+  {
+   "category": "Paragraph",
+   "text": "in which w is a friction coefficient, p (kg/m3) is the fluid density, L (m) is the length and 8 (m/s2)\nis the acceleration of gravity. If the fluid contains particles (sand, paper fibers), then the friction\ncoefficient w satisfies the equation"
+  },
+  {
+   "category": "Equation",
+   "text": "\\frac{1}{\\sqrt{w}}=\\frac{\\ln(\\operatorname{Re}\\sqrt{w})+14-\\frac{5.6}{k}}{k}\\text{,}"
+  },
+  {
+   "category": "Paragraph",
+   "text": "in which k is a parameter known from experiments."
+  },
+  {
+   "category": "Paragraph",
+   "text": "In this chapter, numerical methods will be discussed that can be used to determine w if the values\nof Re and k are known."
+  },
+  {
+   "category": "Heading1",
+   "text": "4.2 Definitions"
+  },
+  {
+   "category": "Paragraph",
+   "text": "In this chapter, various iterative methods will be considered to solve nonlinear equations of the\nform f(p) = 0. The point p is called a zero of the function f, or a root of the equation f(x) = 0.\nFirst, some useful definitions and concepts are introduced."
+  },
+  {
+   "category": "Heading1",
+   "text": "Convergence"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Each numerical method generates a sequence {pn} = p0, p1, p2,... which should converge to p:\nlimn→∞ Pn = p. Assume that the sequence indeed converges, with Pn ≠ p for all n. If there exist\npositive constants � and a satisfying"
+  },
+  {
+   "category": "Equation",
+   "text": "\\lim_{n\\rightarrow\\infty}\\frac{\\left|p-p_{n+1}\\right|}{\\left|p-p_n\\right|^\\alpha}=\\lambda\\text{,}"
+  },
+  {
+   "category": "Caption",
+   "text": "(4.1)"
+  }
+ ]
+}

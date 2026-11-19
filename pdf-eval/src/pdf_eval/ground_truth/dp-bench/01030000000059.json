@@ -1,0 +1,36 @@
+{
+ "elements": [
+  {
+   "category": "Caption",
+   "text": "Figure 4.6. Input Biomass Fuel for Each Type of Biomass Power Generation"
+  },
+  {
+   "category": "Chart",
+   "text": "100% 2%\n8%\n90%\n80% 27%\n70%\n60%\n50% 98% 33% 100% 100%\n40%\n30%\n20%\n31%\n10%\n0%\nBiogas Unutilised wood General wood Construction Waste materials\nwood waste and other\nbiomass\n■ Domestic logs and wood chips ■ Domestic wood pellets\n■ Import pellets, chips ■ PKS\n■ Construction wood waste ■ Other waste\n■ Others"
+  },
+  {
+   "category": "Paragraph",
+   "text": "PKS = palm kernel shell.\nHeat value used: Domestic logs and wood chips: 19.4 MJ/kg; Domestic wood pellets, Import pellets, chips:\n15.5 MJ/kg; PKS: 18 MJ/kg; Construction wood waste, Other waste, and Others: assuming the same with wood\npellets.\nSource: Depicted by IEEJ based on Japan Woody Bioenergy Association, 2020."
+  },
+  {
+   "category": "Paragraph",
+   "text": "According to Japan's trade statistics, its import of wood pellets has increased around 16\ntimes from 2014 to 2019. Viet Nam and Canada are the largest suppliers of Japan's wood\npellet imports (Figure 4.7). On the other hand, domestic wood pellet production stayed\nalmost the same over the same period (Figure 4.8)."
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 4.7. Wood Pellets Import"
+  },
+  {
+   "category": "Chart",
+   "text": "1,800\n1,614\n1,600\n1,400\n1,200\n1,060\n1,000tonne\n1,000\n800\n600 506\n400 347\n232\n200\n97\n0\n2014 2015 2016 2017 2018 2019\n■ China ■ Viet Nam ■ Malaysia ■ Indonesia\n■ Canada ■ US ■ Australia ■ Others"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Source: Trade Statistics of Japan."
+  },
+  {
+   "category": "Footer",
+   "text": "39"
+  }
+ ]
+}

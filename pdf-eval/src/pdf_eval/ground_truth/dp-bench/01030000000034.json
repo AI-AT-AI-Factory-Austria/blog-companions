@@ -1,0 +1,60 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "xviii"
+  },
+  {
+   "category": "Header",
+   "text": "Prologue"
+  },
+  {
+   "category": "Paragraph",
+   "text": "So let's get rid of the expression derivative d/dt and replace it\nwith an appropriate functional derivative. If f is a function then\nwe will write Df as the new function that is the derivative of f:5"
+  },
+  {
+   "category": "Equation",
+   "text": "(Df)(t)=\\left.\\frac{d}{dx}f(x)\\right|_{x=t}."
+  },
+  {
+   "category": "Paragraph",
+   "text": "To do this for the Lagrange equation we need to construct a\nfunction to take the derivative of."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Given a configuration-space path w, there is a standard way\nto make the state-space path. We can abstract this method as a\nmathematical function �:"
+  },
+  {
+   "category": "Equation",
+   "text": "\\Gamma[w](t)=\\left(t,w(t),\\frac{d}{dl}w(t)\\right)."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Using � we can write:"
+  },
+  {
+   "category": "Equation",
+   "text": "\\frac{d}{dt}\\left(\\left(\\partial_2L\\right)(\\Gamma[w](t))\\right)-\\left(\\partial_1L\\right)(\\Gamma[w(t))=0."
+  },
+  {
+   "category": "Paragraph",
+   "text": "If we now define composition of functions (f ○ g)(x) = f(g(x)),\nwe can express the Lagrange equations entirely in terms of func-\ntions:"
+  },
+  {
+   "category": "Equation",
+   "text": "D\\left(\\left(\\partial_2L\\right)\\circ(\\Gamma[w])\\right)-\\left(\\partial_1L\\right)\\circ(\\Gamma[w])=0."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The functions �1L and �2L are partial derivatives of the func-\ntion L. Composition with �[w] evaluates these partials with coor-\ndinates and velocites appropriate for the path w, making functions\nof time. Applying D takes the time derivative. The Lagrange\nequation states that the difference of the resulting functions of\ntime must be zero. This statement of the Lagrange equation is\ncomplete, unambiguous, and functional. It is not encumbered\nwith the particular choices made in expressing the Lagrangian.\nFor example, it doesn't matter if the time is named t or �, and it\nhas an explicit place for the path to be tested."
+  },
+  {
+   "category": "Paragraph",
+   "text": "This expression is equivalent to a computer program:6"
+  },
+  {
+   "category": "Footnote",
+   "text": "5An explanation of functional derivatives is in Appendix B, page 202.\n6The programs in this book are written in Scheme, a dialect of Lisp. The\ndetails of the language are not germane to the points being made. What is\nimportant is that it is mechanically interpretable, and thus unambiguous. In\nthis book we require that the mathematical expressions be explicit enough"
+  }
+ ]
+}

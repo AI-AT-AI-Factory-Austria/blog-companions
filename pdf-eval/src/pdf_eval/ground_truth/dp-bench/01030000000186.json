@@ -1,0 +1,60 @@
+{
+ "elements": [
+  {
+   "category": "Figure",
+   "text": "Step 1-1 Step 1-2\nOutput Output Output\nOutput Output Output\n24 Layers 24 Layers\nMerge\n8 Layers\n48 Layers\nCopy\n8 Layers Continued\n32 Layers 32 Layers Pretraining\n24 Layers\n24 Layers Input\nInput Input Input Input Input\nStep 1. Depthwise Scaling Step 2. Continued Pretraining"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 1: Depth up-scaling for the case with n = 32, s = 48, and m = 8. Depth up-scaling is achieved through a\ndual-stage process of depthwise scaling followed by continued pretraining."
+  },
+  {
+   "category": "Paragraph",
+   "text": "for wider access and application of these models\nby researchers and developers globally."
+  },
+  {
+   "category": "Heading1",
+   "text": "2 Depth Up-Scaling"
+  },
+  {
+   "category": "Paragraph",
+   "text": "To efficiently scale-up LLMs, we aim to utilize pre-\ntrained weights of base models to scale up to larger\nLLMs (Komatsuzaki et al., 2022). While exist-\ning methods such as Komatsuzaki et al. (2022) use\nMoE (Shazeer et al., 2017) to scale-up the model ar-\nchitecture, we opt for a different depthwise scaling\nstrategy inspired by Tan and Le (2019). We then\ncontinually pretrain the scaled model as just scaling\nthe model without further pretraining degrades the\nperformance."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Base model. Any n-layer transformer architec-\nture can be used but we select the 32-layer Llama\n2 architecture as our base model. We initialize the\nLlama 2 architecture with pretrained weights from\nMistral 7B, as it is one of the top performers com-\npatible with the Llama 2 architecture. By adopting\nthe Llama 2 architecture for our base model, we\naim to leverage the vast pool of community re-\nsources while introducing novel modifications to\nfurther enhance its capabilities."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Depthwise scaling. From the base model with n\nlayers, we set the target layer count s for the scaled\nmodel, which is largely dictated by the available\nhardware."
+  },
+  {
+   "category": "Paragraph",
+   "text": "With the above, the depthwise scaling process\nis as follows. The base model with n layers is\nduplicated for subsequent modification. Then, we\nremove the final m layers from the original model\nand the initial m layers from its duplicate, thus\nforming two distinct models with n - m layers.\nThese two models are concatenated to form a scaled\nmodel with s = 2·(n-m) layers. Note that n = 32\nfrom our base model and we set s = 48 considering"
+  },
+  {
+   "category": "Paragraph",
+   "text": "our hardware constraints and the efficiency of the\nscaled model, i.e., fitting between 7 and 13 billion\nparameters. Naturally, this leads to the removal of\nm = 8 layers. The depthwise scaling process with\nn = 32, s = 48, and m = 8 is depicted in 'Step 1:\nDepthwise Scaling' of Fig. 1."
+  },
+  {
+   "category": "Paragraph",
+   "text": "We note that a method in the community that also\n2\nscale the model in the same manner as 'Step 1:\nDepthwise Scaling' of Fig. 1 has been concurrently\ndeveloped."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Continued pretraining. The performance of the\ndepthwise scaled model initially drops below that\nof the base LLM. Thus, we additionally apply\nthe continued pretraining step as shown in 'Step\n2: Continued Pretraining' of Fig. 1. Experimen-\ntally, we observe rapid performance recovery of\nthe scaled model during continued pretraining, a\nphenomenon also observed in Komatsuzaki et al.\n(2022). We consider that the particular way of\ndepthwise scaling has isolated the heterogeneity\nin the scaled model which allowed for this fast\nperformance recovery."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Delving deeper into the heterogeneity of the\nscaled model, a simpler alternative to depthwise\nscaling could be to just repeat its layers once more,\ni.e., from n to 2n layers. Then, the 'layer distance',\nor the difference in the layer indices in the base\nmodel, is only bigger than 1 where layers n and\nn + 1 are connected, i.e., at the seam."
+  },
+  {
+   "category": "Paragraph",
+   "text": "However, this results in maximum layer distance\nat the seam, which may be too significant of a\ndiscrepancy for continued pretraining to quickly\nresolve. Instead, depthwise scaling sacrifices the\n2m middle layers, thereby reducing the discrep-\nancy at the seam and making it easier for continued"
+  },
+  {
+   "category": "Footnote",
+   "text": "2https://huggingface.co/Undi95/\nMistral-11B-v0.1"
+  }
+ ]
+}

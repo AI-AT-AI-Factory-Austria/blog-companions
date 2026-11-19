@@ -1,0 +1,43 @@
+{
+ "elements": [
+  {
+   "category": "Table",
+   "html": "<tr><td colspan=\"2\">Fish species on IUCN Red List</td></tr><tr><td>Potosi Pupfish</td><td>Cyprinodon alvarezi</td></tr><tr><td>La Palma Pupfish</td><td>Cyprinodon longidorsalis</td></tr><tr><td>Butterfly Splitfin</td><td>Ameca splendens</td></tr><tr><td>Golden Skiffia</td><td>Skiffia francesae</td></tr>"
+  },
+  {
+   "category": "Caption",
+   "text": "Table 6.1: Four fish species on IUCN Red List \"Extinct in the Wild\" held in public aquariums."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Public aquariums, because of their in-\nhouse expertise, can act quickly to collect\nand breed rare fish. Actions to prevent the\nextinction of the Barrens Topminnow\ninclude monitoring populations and\npropagating and stocking juveniles into\nexisting or newly created spring habitats.\nThe Tennessee Aquarium assisted with\npropagations and developed a program\ncalled \"Keeper Kids,\" where students on\nspring break help feed the Barrens\nTopminnows in a behind-the-scenes\nexperience."
+  },
+  {
+   "category": "Figure"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 6.3: Photo of the critically endangered Butterfly Splitfin (Ameca\nspendens)."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The breeding colonies of the Butterfly Splitfin (Figure 6.3) at the London Zoo and elsewhere serve as ark\npopulations essential to the survival of this species. Butterfly Splitfins are endemic to the Rio Ameca in\nwestern Mexico and almost extinct in the wild. Actions such as nonnative fish removal, stream restoration, and\nsanctuary designation may take decades before eventual introduction and survival in the wild. The Tennessee\nAquarium is part of a large partnership to guide hatchery augmentation and recovery of the rarest darter in\nNorth America (U.S. Fish and Wildlife Service 2019). The Conasauga Logperch (Percina jenkinsi), a federally\nendangered darter (Percidae), is found only in a 30-mile (48 km) stretch of the Conasauga River in Georgia and\nTennessee (Moyer et al. 2015)."
+  },
+  {
+   "category": "Figure",
+   "text": "THE LAKE STURGEON.\nAcipenser rubicundus, Le S: (p.\nDrawing by H. L from No. National Museum by J. W."
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 6.4: Lake Sturgeon (Acipenser fulvescens)."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The Banggai Cardinalfish (Pterapogon\nkauderni), a small, endangered tropical\ncardinalfish in the family Apogonidae, is\nnow bred and displayed in numerous public\naquariums after overharvest in the wild\ndrove wild populations to near extinction.\nConsequently, most Banggai Cardinalfish\nsold to hobbyists in the United States and\nEuropean Union today are captive bred."
+  },
+  {
+   "category": "Footer",
+   "text": "132 | Public Aquariums and Their Role in Education, Science, and Conservation"
+  }
+ ]
+}

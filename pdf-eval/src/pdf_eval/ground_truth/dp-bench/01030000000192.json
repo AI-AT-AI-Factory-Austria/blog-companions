@@ -1,0 +1,100 @@
+{
+ "elements": [
+  {
+   "category": "Paragraph",
+   "text": "Edward Beeching, Clementine Fourrier, Nathan\nHabib, Sheon Han, Nathan Lambert, Nazneen\nRajani, Omar Sanseviero, Lewis Tunstall, and\nThomas Wolf. 2023. Open llm leaderboard.\nhttps : //huggingface . co/spaces/\nHuggingFaceH4/open_llm_leaderboard."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie\nSubbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind\nNeelakantan, Pranav Shyam, Girish Sastry, Amanda\nAskell, et al. 2020. Language models are few-shot\nlearners. Advances in neural information processing\nsystems, 33:1877-1901."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot,\nAshish Sabharwal, Carissa Schoenick, and Oyvind\nTafjord. 2018. Think you have solved question an-\nswering? try arc, the ai2 reasoning challenge. arXiv\npreprint arXiv:1803.05457."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian,\nMark Chen, Heewoo Jun, Lukasz Kaiser, Matthias\nPlappert, Jerry Tworek, Jacob Hilton, Reiichiro\nNakano, et al. 2021. Training verifiers to solve math\nword problems. arXiv preprint arXiv:2110.14168."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Ganqu Cui, Lifan Yuan, Ning Ding, Guanming Yao,\nWei Zhu, Yuan Ni, Guotong Xie, Zhiyuan Liu, and\nMaosong Sun. 2023. Ultrafeedback: Boosting lan-\nguage models with high-quality feedback. arXiv\npreprint arXiv:2310.01377."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Chunyuan Deng, Yilun Zhao, Xiangru Tang, Mark Ger-\nstein, and Arman Cohan. 2023. Investigating data\ncontamination in modern benchmarks for large lan-\nguage models. arXiv preprint arXiv:2311.09783."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Hanze Dong, Wei Xiong, Deepanshu Goyal, Rui Pan,\nShizhe Diao, Jipeng Zhang, Kashun Shum, and\nTong Zhang. 2023. Raft: Reward ranked finetuning\nfor generative foundation model alignment. arXiv\npreprint arXiv:2304.06767."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Mohammad Fraiwan and Natheer Khasawneh. 2023. A\nreview of chatgpt applications in education, market-\ning, software engineering, and healthcare: Benefits,\ndrawbacks, and research directions. arXiv preprint\narXiv:2305.00237."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Trevor Gale, Deepak Narayanan, Cliff Young, and Matei\nZaharia. 2023. Megablocks: Efficient sparse training\nwith mixture-of-experts. Proceedings of Machine\nLearning and Systems, 5."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Andrea Gesmundo and Kaitlin Maile. 2023. Compos-\nable function-preserving expansions for transformer\narchitectures. arXiv preprint arXiv:2308.06103."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Shahriar Golchin and Mihai Surdeanu. 2023. Time\ntravel in llms: Tracing data contamination in large\nlanguage models. arXiv preprint arXiv:2308.08493."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou,\nMantas Mazeika, Dawn Song, and Jacob Steinhardt.\n2020. Measuring massive multitask language under-\nstanding. In International Conference on Learning\nRepresentations."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul\nArora, Steven Basart, Eric Tang, Dawn Song, and Ja-\ncob Steinhardt. 2021. Measuring mathematical prob-\nlem solving with the math dataset. arXiv preprint\narXiv:2103.03874."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Danny Hernandez, Jared Kaplan, Tom Henighan, and\nSam McCandlish. 2021. Scaling laws for transfer.\narXiv preprint arXiv:2102.01293."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Changho Hwang, Wei Cui, Yifan Xiong, Ziyue Yang,\nZe Liu, Han Hu, Zilong Wang, Rafael Salas, Jithin\nJose, Prabhat Ram, et al. 2023. Tutel: Adaptive\nmixture-of-experts at scale. Proceedings of Machine\nLearning and Systems, 5."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Intel. 2023. Supervised fine-tuning and direct prefer-\nence optimization on intel gaudi2."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Hamish Ivison, Yizhong Wang, Valentina Pyatkin,\nNathan Lambert, Matthew Peters, Pradeep Dasigi,\nJoel Jang, David Wadden, Noah A. Smith, Iz Belt-\nagy, and Hannaneh Hajishirzi. 2023. Camels in a\nchanging climate: Enhancing lm adaptation with tulu\n2."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Albert Q Jiang, Alexandre Sablayrolles, Arthur Men-\nsch, Chris Bamford, Devendra Singh Chaplot, Diego\nde las Casas, Florian Bressand, Gianna Lengyel, Guil-\nlaume Lample, Lucile Saulnier, et al. 2023. Mistral\n7b. arXiv preprint arXiv:2310.06825."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Jean Kaddour, Oscar Key, Piotr Nawrot, Pasquale\nMinervini, and Matt J Kusner. 2023. No train no\ngain: Revisiting efficient training algorithms for\ntransformer-based language models. arXiv preprint\narXiv:2307.06440."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B\nBrown, Benjamin Chess, Rewon Child, Scott Gray,\nAlec Radford, Jeffrey Wu, and Dario Amodei. 2020.\nScaling laws for neural language models. arXiv\npreprint arXiv:2001.08361."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Aran Komatsuzaki, Joan Puigcerver, James Lee-Thorp,\nCarlos Riquelme Ruiz, Basil Mustafa, Joshua Ainslie,\nYi Tay, Mostafa Dehghani, and Neil Houlsby.\n2022. Sparse upcycling: Training mixture-of-\nexperts from dense checkpoints. arXiv preprint\narXiv:2212.05055."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Wing Lian. 2023. https : //huggingface . co/\nwinglian/omega-3b."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Stephanie Lin, Jacob Hilton, and Owain Evans. 2022.\nTruthfulqa: Measuring how models mimic human\nfalsehoods. In Proceedings of the 60th Annual Meet-\ning of the Association for Computational Linguistics\n(Volume 1: Long Papers), pages 3214-3252."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Shayne Longpre, Le Hou, Tu Vu, Albert Webson,\nHyung Won Chung, Yi Tay, Denny Zhou, Quoc V\nLe, Barret Zoph, Jason Wei, et al. 2023. The flan\ncollection: Designing data and methods for effective\ninstruction tuning. arXiv preprint arXiv:2301.13688."
+  }
+ ]
+}

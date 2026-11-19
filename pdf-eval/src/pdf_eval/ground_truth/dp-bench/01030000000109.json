@@ -1,0 +1,88 @@
+{
+ "elements": [
+  {
+   "category": "Paragraph",
+   "text": "the jet velocity can be assumed to remain constant. Therefore, the horizontal distance traveled by jet\n(x) in time (t) is equal to:"
+  },
+  {
+   "category": "Equation",
+   "text": "x=v.t"
+  },
+  {
+   "category": "Caption",
+   "text": "(7)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "The vertical component of the trajectory of the jet will have a constant acceleration downward due to\nthe force of gravity. Therefore, at any time, t, the y-position of the jet may be calculated as:"
+  },
+  {
+   "category": "Equation",
+   "text": "y=\\frac{1}{2}gt^2"
+  },
+  {
+   "category": "Caption",
+   "text": "(8)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Rearranging Equation (8) gives:"
+  },
+  {
+   "category": "Equation",
+   "text": "t=\\left(\\frac{2y}{g}\\right)^{0.5}"
+  },
+  {
+   "category": "Caption",
+   "text": "(9)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Substitution of t and v from Equations 9 and 2 into Equation 7 results in:"
+  },
+  {
+   "category": "Equation",
+   "text": "x=C_v\\sqrt{2gh}\\left(\\frac{2y}{g}\\right)^{0.5}"
+  },
+  {
+   "category": "Caption",
+   "text": "(10)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Equations (10) can be rearranged to find Cv:"
+  },
+  {
+   "category": "Equation",
+   "text": "C_v=\\frac{x}{2\\sqrt{yh}}"
+  },
+  {
+   "category": "Caption",
+   "text": "(11)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Therefore, for steady flow conditions (i.e., constant h in the head tank), the value of Cv can be\ndetermined from the x, y coordinates of the jet trajectory. A graph of x plotted against √ will have\nyh\na slope of 2Cv."
+  },
+  {
+   "category": "Heading1",
+   "text": "7.2. DETERMINATION OF THE COEFFICIENT OF DISCHARGE"
+  },
+  {
+   "category": "Paragraph",
+   "text": "If Cd is assumed to be constant, then a graph of Q plotted against √h (Equation 6) will be linear, and\nthe slope of this graph will be:"
+  },
+  {
+   "category": "Equation",
+   "text": "s=C_dA_o\\sqrt{2g}"
+  },
+  {
+   "category": "Caption",
+   "text": "(12)"
+  },
+  {
+   "category": "Footer",
+   "text": "EXPERIMENT #6: ORIFICE AND FREE JET FLOW 53"
+  }
+ ]
+}

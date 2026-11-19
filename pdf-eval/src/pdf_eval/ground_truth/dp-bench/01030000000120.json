@@ -1,0 +1,40 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "MOHAVE COMMUNITY COLLEGE"
+  },
+  {
+   "category": "Header",
+   "text": "BIO181"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Sickle cell hemoglobin and normal hemoglobin differ in only a single amino acid out of more than 100\namino acids in the complete hemoglobin protein. This difference in a single amino acid results in the\ndifferent properties of sickle cell hemoglobin compared to normal hemoglobin."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Hemoglobin is carried inside red blood cells. Normal hemoglobin dissolves in the watery cytosol of red\nblood cells. Sickle cell hemoglobin is less soluble in the cytosol because:"
+  },
+  {
+   "category": "List",
+   "text": "· Valine (Val) is much less water-soluble than glutamic acid (Glu).\n· Amino acid 6 is in a crucial location on the outer surface of the hemoglobin protein."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The chart on the next page shows how the lower solubility of sickle cell hemoglobin results in the\nsymptoms of sickle cell anemia."
+  },
+  {
+   "category": "Table",
+   "html": "<tr><td>Genes in DNA</td><td>→</td><td>Protein</td><td>→</td><td>Characteristics</td></tr><tr><td>2 copies of the allele that codes for normal hemoglobin (SS)</td><td>→</td><td>Normal hemoglobin dissolves in the cytosol of red blood cells.</td><td>→</td><td>Disk-shaped red blood cells can squeeze through the smallest blood vessels → normal health</td></tr><tr><td>2 copies of the allele that codes for sickle cell hemoglobin (ss)</td><td>→</td><td>Sickle cell hemoglobin can clump in long rods in red blood cells.</td><td>→</td><td>If sickle cell hemoglobin clumps in long rods → sickle-shaped red blood cells → clogged small blood vessels + fragile red blood cells → pain, damage to body organs + anemia = sickle cell anemia</td></tr>"
+  },
+  {
+   "category": "Paragraph",
+   "text": "29a. Circle the arrows in the chart that represent transcription + translation."
+  },
+  {
+   "category": "Footer",
+   "text": "115"
+  }
+ ]
+}

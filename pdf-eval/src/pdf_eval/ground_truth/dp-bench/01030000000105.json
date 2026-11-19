@@ -1,0 +1,32 @@
+{
+ "elements": [
+  {
+   "category": "Heading1",
+   "text": "The Scholarly Publishing Cycle"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Having explored the scholarly publishing ecosystem and its primary relationships, we\ncan update the cycle as follows:"
+  },
+  {
+   "category": "Figure",
+   "text": "RETAILERS\nContent\n$\nValidation\nPUBLISHERS READERS\nContent\nContent\n$\nContent\nServices\n+ Tools\nContent\nS\nAGGREGATORS Content Tools\n+ Tools\n+\nLIBRARIES\nS\n$\nINSTITUTIONS"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Our project set out to explore and address the shortfall in serving the scholarly reader\nidentified in this section. This shortfall is made clear in two connected points:"
+  },
+  {
+   "category": "List",
+   "text": "· Scholarly readers are not just content consumers; scholarly reading is an act of\ncreation as well.\n· Publishers and aggregators are not incentivized to create better tools to support\nscholarly reading."
+  },
+  {
+   "category": "Paragraph",
+   "text": "From here, this report will consider the experiences of publishers, librarians and readers\nthrough a synthesis of interviews conducted with several members of each group, as\nwell as a short online survey aimed at readers. We will then share some of our own\nphilosophy on the future of scholarly reading, then detail the path forward we see for our\nown work in the area."
+  },
+  {
+   "category": "Footer",
+   "text": "10 | The Scholarly Publishing Ecosystem"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+[project]
+name = "pdf-parsers"
+version = "0.1.0"
+description = "Run several PDF parsers over the same PDFs and compare their output side by side."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "camelot-py",
+    "docling",
+    "magika>=1.0.3",
+    "markitdown[pdf]",
+    "mineru[core]>=3.0.3,<4",
+    "opendataloader-pdf[hybrid]>=2.5.19",
+    "pdfminer.six",
+    "pdfplumber",
+    "pymupdf4llm",
+    "pypdf",
+    "torch",
+    "torchvision",
+    "xberg>=1.3.9",
+]
+
+[dependency-groups]
+# Listed directly so they come from the PyTorch index below (uv applies sources
+# only to direct dependencies). Change gfx1151 to your GPU architecture.
+rocm = [
+    "rocm[libraries,device-gfx1151]==7.14.*",
+    "rocm-sdk-core",
+    "rocm-sdk-libraries",
+    "rocm-sdk-device-gfx1151",
+    "triton-rocm",
+]
+
+# torch built for AMD GPUs (ROCm 7.14). The wheel bundles its own ROCm runtime.
+# torch asks for GPU code for every AMD architecture (~12 GB); the override
+# keeps only the one in this machine. Find yours with `rocminfo | grep gfx`.
+# CPU-only machine: use https://download.pytorch.org/whl/cpu and drop the rocm
+# lines. NVIDIA: drop the index, sources and override to get PyPI's CUDA build.
+# torch must stay a direct dependency, or uv ignores its source.
+[tool.uv]
+environments = ["sys_platform == 'linux'"]
+default-groups = ["rocm"]
+override-dependencies = ["rocm[libraries,device-gfx1151]==7.14.*"]
+
+[[tool.uv.index]]
+name = "pytorch-rocm"
+url = "https://download.pytorch.org/whl/rocm7.14"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-rocm" }]
+torchvision = [{ index = "pytorch-rocm" }]
+triton-rocm = [{ index = "pytorch-rocm" }]
+rocm = [{ index = "pytorch-rocm" }]
+rocm-sdk-core = [{ index = "pytorch-rocm" }]
+rocm-sdk-libraries = [{ index = "pytorch-rocm" }]
+rocm-sdk-device-gfx1151 = [{ index = "pytorch-rocm" }]

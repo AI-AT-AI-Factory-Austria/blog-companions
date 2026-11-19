@@ -1,0 +1,24 @@
+{
+ "elements": [
+  {
+   "category": "Paragraph",
+   "text": "radiation at other wavelengths, as shown in (Figure 1). Just as you\ncan catch more rain with a garbage can than with a coffee cup, large\ntelescopes gather much more light than your eye can. Second, there\nis an instrument attached to the telescope that sorts the incoming\nradiation by wavelength. Sometimes the sorting is fairly crude. For\nexample, we might simply want to separate blue light from red\nlight SO that we can determine the temperature of a star. But at\nother times, we want to see individual spectral lines to determine\nwhat an object is made of, or to measure its speed (as explained\nin the Radiation and Spectra chapter). Third, we need some type\nof detector, a device that senses the radiation in the wavelength\nregions we have chosen and permanently records the observations."
+  },
+  {
+   "category": "Heading1",
+   "text": "Orion Region at Different Wavelengths."
+  },
+  {
+   "category": "Figure",
+   "text": "(a) (b) (c)"
+  },
+  {
+   "category": "Caption",
+   "text": "Figure 1. The same part of the sky looks different when observed\nwith instruments that are sensitive to different bands of the\nspectrum. (a) Visible light: this shows part of the Orion region as\nthe human eye sees it, with dotted lines added to show the figure\nof the mythical hunter, Orion. (b) X-rays: here, the view emphasizes\nthe point-like X-ray sources nearby. The colors are artificial,\nchanging from yellow to white to blue with increasing energy of\nthe X-rays. The bright, hot stars in Orion are still seen in this\nimage, but SO are many other objects located at very different"
+  },
+  {
+   "category": "Footer",
+   "text": "276 | Chapter 6 Astronomical Instruments Section 6.1: Telescopes"
+  }
+ ]
+}

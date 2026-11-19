@@ -1,0 +1,32 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "16 Encinas Franco and Laguna"
+  },
+  {
+   "category": "Table",
+   "html": "<tr><td>IX - Zamboanga Peninsula</td><td>4</td><td>2</td><td>4</td></tr><tr><td>X - Northern Mindanao</td><td>2</td><td>2</td><td>2</td></tr><tr><td>XI - Davao Region</td><td>1</td><td>3</td><td>5</td></tr><tr><td>XII - SOCCSKSARGEN</td><td>2</td><td>2</td><td>1</td></tr><tr><td>XIII - Caraga</td><td>1</td><td>3</td><td>3</td></tr><tr><td>ARMM</td><td>1</td><td>2</td><td>2</td></tr><tr><td>Party-List</td><td>10</td><td>15</td><td>20</td></tr><tr><td>TOTAL (w/ Party- List)</td><td>55</td><td>66</td><td>88</td></tr><tr><td>TOTAL (w/o Party- List)</td><td>45</td><td>51</td><td>68</td></tr>"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Source: HOR 2022. Computations made by the authors."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Overall, the abovementioned situation indicates that Filipino\nwomen have gradually increased their presence in formal politics.\nIn Asia, the Philippines and Taiwan are the only countries above the\nglobal average of 24.5 percent of women in parliament (Liu 2021).\nHowever, challenges remain as the increased participation of women\ncomes from dysfunctional features of the country's political system:\npolitical dynasties and the Party-List law. Nonetheless, not all women\nfrom these groups are necessarily averse to women's issues."
+  },
+  {
+   "category": "Heading1",
+   "text": "Barriers to Filipino Women's Participation"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Previous studies have identified political, economic, and cultural\nfactors that impede women's participation in politics. However, context\nstill matters since the perception of women's role in societies and the\nevolution of political systems differ. The following section examines\nsome of these barriers."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The Philippine electoral system's \"first-past-the-post\" electoral\ntype, coupled with the lack of well-developed political parties, inhibits\nwomen's entry into politics. Encinas-Franco (2021) argues that \"[w]\nithout party discipline and institutionalized rules within parties, one"
+  }
+ ]
+}

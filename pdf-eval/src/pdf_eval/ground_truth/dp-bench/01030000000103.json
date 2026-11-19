@@ -1,0 +1,80 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "WITH CHATGPT"
+  },
+  {
+   "category": "Heading1",
+   "text": "CREATING SLIDES"
+  },
+  {
+   "category": "Paragraph",
+   "text": "O E R"
+  },
+  {
+   "category": "Paragraph",
+   "text": "COMMONS"
+  },
+  {
+   "category": "Heading1",
+   "text": "01 - Find Open Educational Resources"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Start by searching for information on platforms like OER\nCommons, where authors share their materials freely, ensuring\nno copyright issues."
+  },
+  {
+   "category": "Heading1",
+   "text": "02- Prepare Your Content"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Summarize or extract the key points from the materials you've\nfound. This will be the content for your slides."
+  },
+  {
+   "category": "Heading1",
+   "text": "03- Generate Slides with ChatGPT"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Provide the summarized content to ChatGPT and instruct it to\ncreate a structured outline for Google Slides, including titles,\nmain points, and any specific instructions for slide design."
+  },
+  {
+   "category": "Paragraph",
+   "text": "</>"
+  },
+  {
+   "category": "Heading1",
+   "text": "04 - Create App Script Code"
+  },
+  {
+   "category": "Paragraph",
+   "text": "After finalizing the slide structure, ask ChatGPT to generate a\nGoogle Apps Script code that can create these slides\nautomatically."
+  },
+  {
+   "category": "Heading1",
+   "text": "05 - Execute in Google Apps Script"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Open Google Apps Script, start a new project, and paste the\ncode provided by ChatGPT. Run the script to auto-generate your\nslide deck."
+  },
+  {
+   "category": "Heading1",
+   "text": "06 - Edit and Customize"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Once the slides are created, you can further edit and customize\nthem in Google Slides according to your needs."
+  },
+  {
+   "category": "Paragraph",
+   "text": "INTERESTED IN FREE AI-CONSULTANCE OR\nCOLLABORATION WITH US?"
+  },
+  {
+   "category": "Paragraph",
+   "text": "EMAIL REBECCA.ALLEN@MSJ.EDU FOR MORE INFORMATION"
+  }
+ ]
+}

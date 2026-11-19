@@ -1,0 +1,84 @@
+{
+ "elements": [
+  {
+   "category": "Header",
+   "text": "Combinatorial Cosmology\nDOI: http://dx.doi.org/10.5772/intechopen.90696"
+  },
+  {
+   "category": "Paragraph",
+   "text": "As for the normal phase, the choice will, to start with, be the simplest possible\none: each path is either possible or not, corresponding to the probability weights 1\nand 0. During the extreme phases, this assumption is no longer reasonable. Again\nthe model will be extremely simplified, but still it is based on physical intuition and,\nmost importantly, completely time symmetric. Assume that the only types of edges\nhaving a non-neglectable chance of occurring during the extreme phase\n[-m - 1, -m] are of the following two kinds: The first scenario is that the universe\npasses through the extreme phase into a state of zero entropy. The other scenario is\nthat it passes into a state with high entropy (equal to 2m). Universes of one of these\ntwo types will be given the (un-normalized) probability 1 or p, respectively. Here\np> 0 should be thought of as a very small number, at least when the size of the\nmodel becomes large. During the other extreme phase [m, m + 1], near the Big\nCrunch, we make the completely symmetric assumption."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Remark 3. These assumptions may perhaps seem somewhat arbitrary. And to a\ncertain extent, this may be so. However, they do represent the following viewpoint\nof what may happen at the full cosmological scale: we may think of the Big Bang and\nthe Big Crunch as states of complete order with zero volume and entropy. Such\nstates can very well be metastable, very much like an oversaturated gas at a tem-\nperature below the point of condensation. If no disturbance takes place, such meta-\nstable states can very well continue to exist for a substantial period of time. In\nparticular, a low-entropy state can have a very good chance of surviving the intense\nbut extremely short extreme phase. On the other hand, if a sufficiently large dis-\nturbance occurs, then the metastable state may almost immediately decay into a\nvery disordered state of high entropy."
+  },
+  {
+   "category": "Paragraph",
+   "text": "It is not my intension to further argue in favor of this viewpoint here. The main\nthing in this chapter is to show that completely symmetric boundary conditions at\nthe endpoints may give rise to a broken time symmetry."
+  },
+  {
+   "category": "Paragraph",
+   "text": "The multiverse now splits up into four different kinds of paths:"
+  },
+  {
+   "category": "List",
+   "text": "· LL: The entropy is low (=0) at both ends ( -m and m)."
+  },
+  {
+   "category": "List",
+   "text": "· LH: The entropy is 0 at -m and 2m at m."
+  },
+  {
+   "category": "List",
+   "text": "· HL: The entropy is 2m at -m and 0 at m."
+  },
+  {
+   "category": "List",
+   "text": "· HH: The entropy is high (= 2m) at both ends (-m and m)."
+  },
+  {
+   "category": "Paragraph",
+   "text": "If we now denote by NLL, NLH, NHL and NHH the number of paths of the\nindicated kinds, then with the above assumptions we also get the corresponding\nprobability weights for the corresponding types as"
+  },
+  {
+   "category": "Equation",
+   "text": "P_{LL}=N_{LL},\\quadP_{LH}=pN_{LH},\\quadP_{HL}=pN_{HL},\\quadP_{HH}=p^2N_{HH}."
+  },
+  {
+   "category": "Caption",
+   "text": "(10)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "We can now consider the following two types of broken time symmetry:\nDefinition 4. A multiverse is said to exhibit a weak broken time symmetry if"
+  },
+  {
+   "category": "Equation",
+   "text": "P_{LL}\\llP_{LH}+P_{HL}."
+  },
+  {
+   "category": "Caption",
+   "text": "(11)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Definition 5. A multiverse is said to exhibit a strong broken time symmetry if"
+  },
+  {
+   "category": "Equation",
+   "text": "P_{LL}+P_{HH}\\llP_{LH}+P_{HL}."
+  },
+  {
+   "category": "Caption",
+   "text": "(12)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "Both these definitions should of course be made more precise when applied to\nspecific models for the multiverse, e.g., by showing that the corresponding limits"
+  },
+  {
+   "category": "Footer",
+   "text": "317"
+  }
+ ]
+}

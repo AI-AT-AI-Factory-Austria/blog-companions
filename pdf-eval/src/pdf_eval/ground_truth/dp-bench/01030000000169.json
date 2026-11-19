@@ -1,0 +1,52 @@
+{
+ "elements": [
+  {
+   "category": "Paragraph",
+   "text": "· Lime is recommended if pH < 5.8"
+  },
+  {
+   "category": "Equation",
+   "text": "\\text{Target}\\mathrm{pH}\\text{of}5.5=[6,405-(1,590\\times\\text{buffer}\\mathrm{pH})+(98\\times\\text{buffer}\\mathrm{pH}\\times\\text{buffer}\\mathrm{pH})]\\times\\text{depth}\\\\"
+  },
+  {
+   "category": "List",
+   "text": "· Depth is in inches\n· Used if cash flow is limited or in lime availability problem areas in Central and Western Kansas\n· Lime is recommended if pH < 5.5"
+  },
+  {
+   "category": "Paragraph",
+   "text": "This buffer contains chromium (Cr), a toxic heavy metal. Therefore, your lab instructor will perform the SMP buffer\nanalysis. As a class, determine which soil-water mixtures from Activity 1 need lime (pH ≤ 6.4). To those solutions, add\n10 ml of the SMP buffer solution, and stir with a glass rod. Allow the mixtures to stand for 30 minutes, which should be\nenough time for the acid cations to be displaced from the CEC and forced into solution. Read the pH on meter."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Assuming the desired pH is 6.0 (i.e. use the middle equation), calculate the lime requirement, show your work\nbelow, and record your results in Table 14.1."
+  },
+  {
+   "category": "Heading1",
+   "text": "Activity 5: Evaluating Liming Materials"
+  },
+  {
+   "category": "Paragraph",
+   "text": "The type of liming material and the size or fineness of the material determine how efficiently liming materials raise soil\npH. This experiment was actually initiated earlier in the semester to allow time for the liming agents to react. Amending\nthe soil with several different liming agents allows us assess the effects of particle size and liming material based on the\nrelative changes in soil. The treatments included the following:"
+  },
+  {
+   "category": "List",
+   "text": "· Reagent grade CaCO3\n· Reagent grade CaO\n· Reagent grade CaSO4\n· Coarse dolomitic limestone (35 mesh)\n· Fine dolomitic limestone (120 mesh)\n· Control (no amendments)"
+  },
+  {
+   "category": "Paragraph",
+   "text": "When this experiment was initiated, each lab section was divided into six groups, with each group responsible for one\nof the six treatments. Your laboratory instructor assigned a treatment to your group, and you completed the following\nsteps:"
+  },
+  {
+   "category": "List",
+   "text": "1. Label four plastic bags\n2. Weigh 20 g of air-dry soil into each plastic bag.\n3. Weigh 0.1 gram of designated liming material onto weighing paper.\n4. Add the liming material to the soil and mix thoroughly to distribute evenly in the soil.\n5. Add a few mL of water to each bag and mix.\n6. Close the bags to start incubation."
+  },
+  {
+   "category": "Paragraph",
+   "text": "Now that the liming agents have had time to react, you will collect the results."
+  },
+  {
+   "category": "Footer",
+   "text": "130 | Soil Acidity and Adjusting Soil pH"
+  }
+ ]
+}
