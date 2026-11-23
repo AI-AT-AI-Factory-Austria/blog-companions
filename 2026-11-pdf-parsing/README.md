@@ -16,7 +16,7 @@ in seconds. It has two columns, a table without ruling lines, a footnote, a
 running header and a page number. That is enough to trip up every kind of
 parser somewhere.
 
-We ran sixteen parsers and parser modes on it, plus a scanned copy and a
+We ran seventeen parsers and parser modes on it, plus a scanned copy and a
 damaged one, to see where each approach to PDF parsing succeeds and where it
 breaks, and to illustrate the concepts the article explains.
 
@@ -32,7 +32,7 @@ breaks, and to illustrate the concepts the article explains.
 |---|---|
 | [`demo/`](demo) | The demo page (HTML source, born-digital PDF, fake scan, damaged scan), the answer keys and checks, every parser's output, and the full scores |
 | [`snippets/`](snippets) | The article's code examples as scripts, numbered in article order |
-| [`parsers/`](parsers) | A script that installs and runs sixteen parsers and parser modes on the same PDFs |
+| [`parsers/`](parsers) | A script that installs and runs eighteen parsers and parser modes on the same PDFs |
 | [`pdf-eval/`](pdf-eval) | The scorer: text, order, table, heading and check metrics against an answer key |
 | [`docs/vlm.md`](docs/vlm.md) | Running vision-language models for parsing: servers, models, image size, prompts, settings, checks |
 
@@ -107,10 +107,12 @@ a lake, four sampling stations, two columns, a table without ruling lines,
 a footnote, a running header and a page number, which is enough to make
 every kind of parser fail somewhere.
 
-Parser outputs in `demo/outputs/` come from one run on 18 November 2026.
+Parser outputs in `demo/outputs/` come from one run each in November 2026.
 `vlm-gemma4/` is Gemma 4 31B called with the article's minimal VLM
 snippet; `damaged-page.md` there is its reading of the blotted scan.
-Marker crashed on both pages in that environment and has no output.
+Marker (`marker/`) was added after the article went to press, which is why
+the article counts sixteen parsers and this folder seventeen. `marker-llm`
+needs a vision model behind an endpoint and has no output here.
 
 ## Licence
 
