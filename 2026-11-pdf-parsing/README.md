@@ -1,10 +1,24 @@
 # PDF parsing, from glyphs to knowledge: companion code
 
-Everything behind the article *PDF parsing, from glyphs to knowledge*
-*(article link TBD)*: the demo page, its scans, the answer keys, the output
-of every parser, the scorer, and runnable versions of every code example.
-Use it to reproduce the article, or as a starting point for testing parsers
-on your own documents.
+This folder holds everything behind the article *PDF parsing, from glyphs to
+knowledge* *(article link TBD)*: the page and its scans, the answer keys,
+every parser's output, the scorer that measures how far each one is off,
+and runnable versions of every code example. Use it to reproduce the
+article, or to test parsers on your own documents.
+
+<p align="center">
+  <img src="demo/demo-page.png" width="560"
+       alt="The demo page: a two-column report page about a fictional lake, with a table, a footnote, a running header and a page number">
+</p>
+
+This is one made-up page from a lake monitoring report. A person reads it
+in seconds. It has two columns, a table without ruling lines, a footnote, a
+running header and a page number. That is enough to trip up every kind of
+parser somewhere.
+
+We ran sixteen parsers and parser modes on it, plus a scanned copy and a
+damaged one, to see where each approach to PDF parsing succeeds and where it
+breaks, and to illustrate the concepts the article explains.
 
 > **Note:** Provided as-is to reproduce the results in the article. Lockfiles
 > document the exact versions tested; this snapshot is not actively
@@ -106,3 +120,19 @@ opendataloader-bench and PubTabNet and DP-Bench ground truth; see
 under the SIL Open Font License ([`demo/fonts/LICENSE-Literata.txt`](demo/fonts/LICENSE-Literata.txt)).
 Each parser has its own licence; PyMuPDF and pymupdf4llm are AGPL-3.0 or
 commercial.
+
+## Acknowledgement
+
+AI Factory Austria AI:AT is co-funded by the European High-Performance
+Computing Joint Undertaking (JU) under grant agreement No 101253078. The JU
+receives support from the Horizon Europe programme of the European Union and
+Austria (BMIMI/FFG).
+
+Funded by the European Union. Views and opinions expressed are however those
+of the author(s) only and do not necessarily reflect those of the European
+Union or the European High-Performance Computing Joint Undertaking. Neither
+the European Union nor the granting authority can be held responsible for
+them.
+
+The tools compared here are named for reproducibility only; inclusion is not
+an endorsement, and results on one page say nothing general about any tool.

@@ -39,3 +39,16 @@ Colleagues adding companion code for a new blog post: see
 Unless a post folder specifies otherwise in its own `LICENSE` or `NOTICE`
 file, code in this repository is licensed under the Apache License 2.0 (see
 [`LICENSE`](LICENSE)).
+
+## Acknowledgement
+
+AI Factory Austria AI:AT is co-funded by the European High-Performance
+Computing Joint Undertaking (JU) under grant agreement No 101253078. The JU
+receives support from the Horizon Europe programme of the European Union and
+Austria (BMIMI/FFG).
+
+Funded by the European Union. Views and opinions expressed are however those
+of the author(s) only and do not necessarily reflect those of the European
+Union or the European High-Performance Computing Joint Undertaking. Neither
+the European Union nor the granting authority can be held responsible for
+them.
