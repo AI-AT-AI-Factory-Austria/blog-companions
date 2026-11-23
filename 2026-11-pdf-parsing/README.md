@@ -16,7 +16,7 @@ in seconds. It has two columns, a table without ruling lines, a footnote, a
 running header and a page number. That is enough to trip up every kind of
 parser somewhere.
 
-We ran seventeen parsers and parser modes on it, plus a scanned copy and a
+We ran eighteen parsers and parser modes on it, plus a scanned copy and a
 damaged one, to see where each approach to PDF parsing succeeds and where it
 breaks, and to illustrate the concepts the article explains.
 
@@ -110,9 +110,7 @@ every kind of parser fail somewhere.
 Parser outputs in `demo/outputs/` come from one run each in November 2026.
 `vlm-gemma4/` is Gemma 4 31B called with the article's minimal VLM
 snippet; `damaged-page.md` there is its reading of the blotted scan.
-Marker (`marker/`) was added after the article went to press, which is why
-the article counts sixteen parsers and this folder seventeen. `marker-llm`
-needs a vision model behind an endpoint and has no output here.
+`marker-llm/` is Marker with Gemma 4 31B as its LLM.
 
 ## Licence
 

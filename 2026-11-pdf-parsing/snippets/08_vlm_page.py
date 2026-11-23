@@ -89,7 +89,10 @@ def main():
         )
         choice = response.choices[0]
         text = choice.message.content or ""
-        text = text.removeprefix("```markdown").removeprefix("```md").removesuffix("```").strip()
+        text = text.strip()
+        for fence in ("```markdown", "```md", "```"):
+            text = text.removeprefix(fence)
+        text = text.removesuffix("```").strip()
         for w in warnings_for(text, choice.finish_reason):
             print(f"page {n}: WARNING {w}", file=sys.stderr)
         print(f"<!-- page {n} -->\n{text}\n")

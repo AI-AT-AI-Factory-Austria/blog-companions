@@ -276,7 +276,8 @@ def main():
             try:
                 text, error = PARSERS[name](pdf), ""
             except subprocess.CalledProcessError as e:
-                text, error = "", (e.stderr or str(e)).strip().splitlines()[-1]
+                lines = (e.stderr or "").strip().splitlines() or [str(e)]
+                text, error = "", lines[-1]
             except Exception as e:
                 text, error = "", f"{type(e).__name__}: {e}"
             seconds = time.perf_counter() - start

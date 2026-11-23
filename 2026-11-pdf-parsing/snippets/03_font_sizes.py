@@ -13,6 +13,8 @@ path = sys.argv[1] if len(sys.argv) > 1 else "../demo/demo-page.pdf"
 with pdfplumber.open(path) as pdf:
     sizes = Counter(round(c["size"], 1) for page in pdf.pages for c in page.chars if c["text"].strip())
 
+if not sizes:
+    raise SystemExit("no text layer: this PDF needs OCR")
 body = max(sizes, key=sizes.get)
 larger = sorted((s for s in sizes if s > body), reverse=True)
 for s in sorted(sizes, reverse=True):
